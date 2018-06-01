@@ -1,0 +1,31 @@
+{
+  "clientAccount": "2170413207P",
+  "deal": {
+    "send": {
+   	     "amount": "14.45",
+      "currency": "USD"
+    },
+    "receive": {
+      "currency": "EUR"
+    }
+  },
+  "source": {
+    "type": "OLTB",
+    "ownAccount": true,
+    "sourceOfFunds": {
+    	"id": "SAL"
+    }
+  },
+  "destination": [
+    {
+      "type": "recipient",
+      "id": "637777",
+      "amount": "14.45",
+      "currency": "USD",
+      "reference": "OPTIONAL REF",
+      "reason": {
+      	"id": "1"
+      }
+    }
+  ]
+}

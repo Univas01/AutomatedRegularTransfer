@@ -7,6 +7,9 @@
 			class-name="com.worldfirst.it.ExtentReportListener.ExtentReporterNG" />
 	</listeners>
 
-  <test thread-count="5" name="Test">
-  </test> <!-- Test -->
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.worldfirst.it.fundsInToRecipients.AppliedRateEqualsRateTest" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

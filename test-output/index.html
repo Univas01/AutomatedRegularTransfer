@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Sanity_Suite">
+              <span class="suite-name border-passed">Sanity Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Sanity_Suite">
+                    <span>sanity-suite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Sanity_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Sanity_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Sanity_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Sanity_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Sanity_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Sanity_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Sanity_Suite" class="hide-methods passed suite-Sanity_Suite"> (hide)</a> <!-- hide-methods passed suite-Sanity_Suite -->
+                      <a href="#" panel-name="suite-Sanity_Suite" class="show-methods passed suite-Sanity_Suite"> (show)</a> <!-- show-methods passed suite-Sanity_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Sanity_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sanity_Suite" title="com.worldfirst.it.fundsInToRecipients.InverseRateEqualsAppliedRateTest" hash-for-method="InverseRateEqualsAppliedRate">InverseRateEqualsAppliedRate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sanity_Suite" title="com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies" hash-for-method="USClientSendsAUDTest">USClientSendsAUDTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sanity_Suite" title="com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies" hash-for-method="USClientSendsCADTest">USClientSendsCADTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sanity_Suite" title="com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies" hash-for-method="USClientSendsEURTest">USClientSendsEURTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sanity_Suite" title="com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies" hash-for-method="USClientSendsGBPTest">USClientSendsGBPTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sanity_Suite" title="com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies" hash-for-method="USClientSendsPLNTest">USClientSendsPLNTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sanity_Suite" title="com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies" hash-for-method="USClientSendsUSDTest">USClientSendsUSDTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sanity_Suite" title="com.worldfirst.it.fundsInToRecipients.RateEqualsAppliedRateTest" hash-for-method="appliedRateEqualsRate">appliedRateEqualsRate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sanity_Suite" title="com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest" hash-for-method="bookAQuoteTest">bookAQuoteTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sanity_Suite" title="com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest" hash-for-method="requestAQuoteTest">requestAQuoteTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Sanity_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Sanity_Suite" class="panel Sanity_Suite">
+          <div class="suite-Sanity_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="USClientSendsAUDTest">
+                  </a> <!-- USClientSendsAUDTest -->
+                  <span class="method-name">USClientSendsAUDTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="USClientSendsCADTest">
+                  </a> <!-- USClientSendsCADTest -->
+                  <span class="method-name">USClientSendsCADTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="USClientSendsEURTest">
+                  </a> <!-- USClientSendsEURTest -->
+                  <span class="method-name">USClientSendsEURTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="USClientSendsGBPTest">
+                  </a> <!-- USClientSendsGBPTest -->
+                  <span class="method-name">USClientSendsGBPTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="USClientSendsPLNTest">
+                  </a> <!-- USClientSendsPLNTest -->
+                  <span class="method-name">USClientSendsPLNTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="USClientSendsUSDTest">
+                  </a> <!-- USClientSendsUSDTest -->
+                  <span class="method-name">USClientSendsUSDTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sanity_Suite-class-passed -->
+          <div class="suite-Sanity_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookAQuoteTest">
+                  </a> <!-- bookAQuoteTest -->
+                  <span class="method-name">bookAQuoteTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="requestAQuoteTest">
+                  </a> <!-- requestAQuoteTest -->
+                  <span class="method-name">requestAQuoteTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sanity_Suite-class-passed -->
+          <div class="suite-Sanity_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.worldfirst.it.fundsInToRecipients.RateEqualsAppliedRateTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="appliedRateEqualsRate">
+                  </a> <!-- appliedRateEqualsRate -->
+                  <span class="method-name">appliedRateEqualsRate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sanity_Suite-class-passed -->
+          <div class="suite-Sanity_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.worldfirst.it.fundsInToRecipients.InverseRateEqualsAppliedRateTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="InverseRateEqualsAppliedRate">
+                  </a> <!-- InverseRateEqualsAppliedRate -->
+                  <span class="method-name">InverseRateEqualsAppliedRate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sanity_Suite-class-passed -->
+        </div> <!-- panel Sanity_Suite -->
+        <div panel-name="test-xml-Sanity_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/ola.ajala/Rest_WorkSpace/AutomatedRegularTransfer/sanity-suite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Sanity Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.worldfirst.it.ExtentReportListener.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;RestAssured SanityTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.worldfirst.it.fundsInToRecipients.RateEqualsAppliedRateTest&quot;/&gt;
+      &lt;class name=&quot;com.worldfirst.it.fundsInToRecipients.InverseRateEqualsAppliedRateTest&quot;/&gt;
+      &lt;class name=&quot;com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest&quot;/&gt;
+      &lt;class name=&quot;com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RestAssured SanityTest --&gt;
+&lt;/suite&gt; &lt;!-- Sanity Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Sanity_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Sanity Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">RestAssured SanityTest (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Sanity_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Sanity Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Sanity_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Sanity Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Sanity_Suite');
+function tableData_Sanity_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'appliedRateEqualsRate')
+data.setCell(0, 2, 'com.worldfirst.it.fundsInToRecipients.RateEqualsAppliedRateTest')
+data.setCell(0, 3, 2160);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'InverseRateEqualsAppliedRate')
+data.setCell(1, 2, 'com.worldfirst.it.fundsInToRecipients.InverseRateEqualsAppliedRateTest')
+data.setCell(1, 3, 654);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'requestAQuoteTest')
+data.setCell(2, 2, 'com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest')
+data.setCell(2, 3, 642);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'bookAQuoteTest')
+data.setCell(3, 2, 'com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest')
+data.setCell(3, 3, 250);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'USClientSendsAUDTest')
+data.setCell(4, 2, 'com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies')
+data.setCell(4, 3, 161);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'USClientSendsGBPTest')
+data.setCell(5, 2, 'com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies')
+data.setCell(5, 3, 156);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'USClientSendsEURTest')
+data.setCell(6, 2, 'com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies')
+data.setCell(6, 3, 152);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'USClientSendsUSDTest')
+data.setCell(7, 2, 'com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies')
+data.setCell(7, 3, 146);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'USClientSendsPLNTest')
+data.setCell(8, 2, 'com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies')
+data.setCell(8, 3, 146);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'USClientSendsCADTest')
+data.setCell(9, 2, 'com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies')
+data.setCell(9, 3, 145);
+window.suiteTableData['Sanity_Suite']= { tableData: data, tableDiv: 'times-div-Sanity_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <div id="times-div-Sanity_Suite">
+              </div> <!-- times-div-Sanity_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Sanity_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Sanity Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Sanity_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Sanity_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.worldfirst.it.fundsInToRecipients.RateEqualsAppliedRateTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">appliedRateEqualsRate</span>
+                <span class="method-start">962 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.worldfirst.it.fundsInToRecipients.InverseRateEqualsAppliedRateTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3126 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">InverseRateEqualsAppliedRate</span>
+                <span class="method-start">3133 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3789 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">requestAQuoteTest</span>
+                <span class="method-start">3792 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4437 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bookAQuoteTest</span>
+                <span class="method-start">4443 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4695 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">USClientSendsAUDTest</span>
+                <span class="method-start">4698 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4861 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">USClientSendsCADTest</span>
+                <span class="method-start">4865 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5012 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">USClientSendsEURTest</span>
+                <span class="method-start">5014 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5168 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">USClientSendsGBPTest</span>
+                <span class="method-start">5170 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5327 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">USClientSendsPLNTest</span>
+                <span class="method-start">5329 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5477 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">USClientSendsUSDTest</span>
+                <span class="method-start">5479 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

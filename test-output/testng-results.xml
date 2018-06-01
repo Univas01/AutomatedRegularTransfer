@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sanity Suite" duration-ms="5652" started-at="2018-06-01T17:04:08Z" finished-at="2018-06-01T17:04:14Z">
+    <groups>
+    </groups>
+    <test name="RestAssured SanityTest" duration-ms="5652" started-at="2018-06-01T17:04:08Z" finished-at="2018-06-01T17:04:14Z">
+      <class name="com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@3d99d22e]" name="setUp" is-config="true" duration-ms="2" started-at="2018-06-01T17:04:13Z" finished-at="2018-06-01T17:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="USClientSendsAUDTest()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@3d99d22e]" name="USClientSendsAUDTest" duration-ms="161" started-at="2018-06-01T17:04:13Z" finished-at="2018-06-01T17:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- USClientSendsAUDTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@3d99d22e]" name="setUp" is-config="true" duration-ms="3" started-at="2018-06-01T17:04:13Z" finished-at="2018-06-01T17:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="USClientSendsCADTest()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@3d99d22e]" name="USClientSendsCADTest" duration-ms="145" started-at="2018-06-01T17:04:13Z" finished-at="2018-06-01T17:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- USClientSendsCADTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@3d99d22e]" name="setUp" is-config="true" duration-ms="2" started-at="2018-06-01T17:04:13Z" finished-at="2018-06-01T17:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="USClientSendsEURTest()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@3d99d22e]" name="USClientSendsEURTest" duration-ms="152" started-at="2018-06-01T17:04:13Z" finished-at="2018-06-01T17:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- USClientSendsEURTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@3d99d22e]" name="setUp" is-config="true" duration-ms="2" started-at="2018-06-01T17:04:13Z" finished-at="2018-06-01T17:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="USClientSendsGBPTest()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@3d99d22e]" name="USClientSendsGBPTest" duration-ms="156" started-at="2018-06-01T17:04:13Z" finished-at="2018-06-01T17:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- USClientSendsGBPTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@3d99d22e]" name="setUp" is-config="true" duration-ms="2" started-at="2018-06-01T17:04:14Z" finished-at="2018-06-01T17:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="USClientSendsPLNTest()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@3d99d22e]" name="USClientSendsPLNTest" duration-ms="146" started-at="2018-06-01T17:04:14Z" finished-at="2018-06-01T17:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- USClientSendsPLNTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@3d99d22e]" name="setUp" is-config="true" duration-ms="2" started-at="2018-06-01T17:04:14Z" finished-at="2018-06-01T17:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="USClientSendsUSDTest()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@3d99d22e]" name="USClientSendsUSDTest" duration-ms="146" started-at="2018-06-01T17:04:14Z" finished-at="2018-06-01T17:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- USClientSendsUSDTest -->
+      </class> <!-- com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies -->
+      <class name="com.worldfirst.it.fundsInToRecipients.InverseRateEqualsAppliedRateTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.InverseRateEqualsAppliedRateTest@6e6c3152]" name="setUp" is-config="true" duration-ms="7" started-at="2018-06-01T17:04:11Z" finished-at="2018-06-01T17:04:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="InverseRateEqualsAppliedRate()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.InverseRateEqualsAppliedRateTest@6e6c3152]" name="InverseRateEqualsAppliedRate" duration-ms="654" started-at="2018-06-01T17:04:11Z" finished-at="2018-06-01T17:04:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InverseRateEqualsAppliedRate -->
+      </class> <!-- com.worldfirst.it.fundsInToRecipients.InverseRateEqualsAppliedRateTest -->
+      <class name="com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest@50b494a6]" name="setUp" is-config="true" duration-ms="3" started-at="2018-06-01T17:04:12Z" finished-at="2018-06-01T17:04:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="requestAQuoteTest()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest@50b494a6]" name="requestAQuoteTest" duration-ms="642" started-at="2018-06-01T17:04:12Z" finished-at="2018-06-01T17:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestAQuoteTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest@50b494a6]" name="setUp" is-config="true" duration-ms="6" started-at="2018-06-01T17:04:13Z" finished-at="2018-06-01T17:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="bookAQuoteTest()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest@50b494a6]" name="bookAQuoteTest" duration-ms="250" started-at="2018-06-01T17:04:13Z" depends-on-methods="com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest.requestAQuoteTest" finished-at="2018-06-01T17:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookAQuoteTest -->
+      </class> <!-- com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest -->
+      <class name="com.worldfirst.it.fundsInToRecipients.RateEqualsAppliedRateTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.RateEqualsAppliedRateTest@6ebc05a6]" name="setUp" is-config="true" duration-ms="962" started-at="2018-06-01T17:04:08Z" finished-at="2018-06-01T17:04:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="appliedRateEqualsRate()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.RateEqualsAppliedRateTest@6ebc05a6]" name="appliedRateEqualsRate" duration-ms="2160" started-at="2018-06-01T17:04:09Z" finished-at="2018-06-01T17:04:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appliedRateEqualsRate -->
+      </class> <!-- com.worldfirst.it.fundsInToRecipients.RateEqualsAppliedRateTest -->
+    </test> <!-- RestAssured SanityTest -->
+  </suite> <!-- Sanity Suite -->
+</testng-results>
