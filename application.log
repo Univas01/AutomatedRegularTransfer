@@ -113,3 +113,127 @@
         "clientReference": "2170413207P"
     }
 }
+2018-06-05 15:37:17,814  INFO [main] receivingBankBarclaysTest:33 - ***Quote Test***
+2018-06-05 15:37:19,650  INFO [main] receivingBankBarclaysTest:46 - {
+    "id": "4b9ab8fc-2198-4025-920e-3bbb316f06a6",
+    "clientAccount": "2100226004P",
+    "expiryTime": 1528209356,
+    "deal": {
+        "appliedRate": "1.133061",
+        "rate": "0.882565",
+        "inverseRate": "1.133061",
+        "valueDate": "2018-06-06",
+        "fundsInDate": "2018-06-06",
+        "send": {
+            "amount": "1000.00",
+            "currency": "GBP"
+        },
+        "receive": {
+            "amount": "1133.06",
+            "currency": "EUR"
+        },
+        "totalSettlementAmount": {
+            "amount": "1000.00",
+            "currency": "GBP"
+        }
+    },
+    "source": {
+        "type": "CHPS",
+        "sourceOfFunds": {
+            "id": "SAL",
+            "description": ""
+        },
+        "ownAccount": false
+    },
+    "destination": [
+        {
+            "type": "recipient",
+            "id": "52996",
+            "amount": "1133.06",
+            "currency": "EUR",
+            "date": "2018-06-06",
+            "reference": "OPTIONAL REF",
+            "reason": {
+                "id": "1",
+                "description": ""
+            },
+            "fee": {
+                "amount": "0.00",
+                "currency": "EUR"
+            }
+        }
+    ]
+}
+2018-06-05 15:37:20,169  INFO [main] receivingBankBarclaysTest:52 - ***Book Test***
+2018-06-05 15:37:20,426  INFO [main] receivingBankBarclaysTest:64 - {
+    "deal": 4872422,
+    "payments": [
+        987840129
+    ],
+    "receivingBank": {
+        "id": 1,
+        "clientReference": "2100226004P"
+    }
+}
+2018-06-05 16:38:01,605  INFO [main] GLCreceivingBankBarclaysTest:33 - ***Quote Test***
+2018-06-05 16:38:03,434  INFO [main] GLCreceivingBankBarclaysTest:46 - {
+    "id": "67f8ded6-c956-4d75-94bb-4f1e8e67317b",
+    "clientAccount": "2161013018C",
+    "expiryTime": 1528213000,
+    "deal": {
+        "appliedRate": "0.84766",
+        "rate": "1.179718",
+        "inverseRate": "0.84766",
+        "valueDate": "2018-06-06",
+        "fundsInDate": "2018-06-06",
+        "send": {
+            "amount": "90.00",
+            "currency": "USD"
+        },
+        "receive": {
+            "amount": "76.29",
+            "currency": "EUR"
+        },
+        "totalSettlementAmount": {
+            "amount": "90.00",
+            "currency": "USD"
+        }
+    },
+    "source": {
+        "type": "OLTB",
+        "sourceOfFunds": {
+            "id": "SAL",
+            "description": ""
+        },
+        "ownAccount": true
+    },
+    "destination": [
+        {
+            "type": "recipient",
+            "id": "751793",
+            "amount": "76.29",
+            "currency": "EUR",
+            "date": "2018-06-06",
+            "reference": "OPTIONAL REF",
+            "reason": {
+                "id": "1",
+                "description": ""
+            },
+            "fee": {
+                "amount": "0.00",
+                "currency": "EUR"
+            }
+        }
+    ]
+}
+2018-06-05 16:38:03,910  INFO [main] GLCreceivingBankBarclaysTest:52 - ***Book Test***
+2018-06-05 16:38:04,162  INFO [main] GLCreceivingBankBarclaysTest:64 - {
+    "deal": 4872500,
+    "payments": [
+        987840211
+    ],
+    "receivingBank": {
+        "id": 3,
+        "clientReference": "2161013018C"
+    }
+}

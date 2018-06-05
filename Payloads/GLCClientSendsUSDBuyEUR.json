@@ -1,0 +1,31 @@
+{
+  "clientAccount": "2161013018C",
+  "deal": {
+    "send": {
+        "amount": "90.00",
+      "currency": "USD"
+    },
+    "receive": {
+      "currency": "EUR"
+    }
+  },
+  "source": {
+    "type": "OLTB",
+    "ownAccount": true,
+    "sourceOfFunds": {
+    	"id": "SAL"
+    }
+  },
+  "destination": [
+    {
+      "type": "recipient",
+      "id": "751793",
+      "amount": "90.00",
+      "currency": "USD",
+      "reference": "OPTIONAL REF",
+      "reason": {
+      	"id": "1"
+      }
+    }
+  ]
+}
