@@ -20,13 +20,13 @@ public class RateEqualsAppliedRateTest {
 	private static Logger log = LogManager.getLogger(RateEqualsAppliedRateTest.class.getName());
 	RequestSpecification requestSpec;
 	ResponseSpecification responseSpec;
-	Response response;
+	Response quoteResponse;
 	String quoteId;
 
 	@BeforeMethod
 	public void setUp() {
-		requestSpec = RestUtilities.getRequestSpecification();
-		responseSpec = RestUtilities.getResponseSpecification();
+		requestSpec = RestUtilities.postRequestSpecification();
+		responseSpec = RestUtilities.postResponseSpecification();
 		
 	}
 	
@@ -34,7 +34,7 @@ public class RateEqualsAppliedRateTest {
 	public void appliedRateEqualsRate() {
 		log.info("***RateEqualsAppliedRate Test***");
 		String requestBody = PayloadConverter.generatePayloadString("GLPClientEURUSD.json");
-		response = 
+		quoteResponse = 
 		given()
 			.spec(RestUtilities.addPayloadToSpec(requestSpec, requestBody))
 		.when()
@@ -43,8 +43,9 @@ public class RateEqualsAppliedRateTest {
 			.spec(responseSpec)
 			.log().all()
 			.extract().response();	
-		
-		JsonPath quoteJsonPath = RestUtilities.getJsonPath(response);
+		String getQuoteresponse = RestUtilities.getQuoteResponse(quoteResponse);
+		JsonPath quoteJsonPath = RestUtilities.jsonParser(getQuoteresponse);
+		log.info(getQuoteresponse);
 		quoteId = quoteJsonPath.get("id");
 		Assert.assertEquals(quoteJsonPath.get("deal.appliedRate"), quoteJsonPath.get("deal.rate"));
 	}

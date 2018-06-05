@@ -20,13 +20,13 @@ public class InverseRateEqualsAppliedRateTest {
 	private static Logger log = LogManager.getLogger(InverseRateEqualsAppliedRateTest.class.getName());
 	RequestSpecification requestSpec;
 	ResponseSpecification responseSpec;
-	Response response;
+	Response quoteResponse;
 	String quoteId;
 
 	@BeforeMethod
 	public void setUp() {
-		requestSpec = RestUtilities.getRequestSpecification();
-		responseSpec = RestUtilities.getResponseSpecification();
+		requestSpec = RestUtilities.postRequestSpecification();
+		responseSpec = RestUtilities.postResponseSpecification();
 		
 	}
 	
@@ -34,17 +34,17 @@ public class InverseRateEqualsAppliedRateTest {
 	public void InverseRateEqualsAppliedRate() {
 		log.info("***InverseRateEqualsRate Test***");
 		String requestBody = PayloadConverter.generatePayloadString("GLPClientUSDEUR.json");
-		response = 
+		quoteResponse = 
 		given()
 			.spec(RestUtilities.addPayloadToSpec(requestSpec, requestBody))
 		.when()
 			.post(EndPoints.QUOTE)
 		.then()
 			.spec(responseSpec)
-			.log().all()
 			.extract().response();	
-		
-		JsonPath quoteJsonPath = RestUtilities.getJsonPath(response);
+		String getQuoteresponse = RestUtilities.getQuoteResponse(quoteResponse);
+		JsonPath quoteJsonPath = RestUtilities.jsonParser(getQuoteresponse);
+		log.info(getQuoteresponse);
 		quoteId = quoteJsonPath.get("id");
 		Assert.assertEquals(quoteJsonPath.get("deal.appliedRate"), quoteJsonPath.get("deal.inverseRate"));
 	}

@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.worldfirst.it.settlementMethods.USClientSendingGBPTest">
+      <class name="com.worldfirst.it.fundsInToRecipients.RateEqualsAppliedRateTest">
         <methods>
+          <include name="appliedRateEqualsRate"/>
           <include name="setUp"/>
-          <include name="USClientSendsGBPTest"/>
         </methods>
-      </class> <!-- com.worldfirst.it.settlementMethods.USClientSendingGBPTest -->
+      </class> <!-- com.worldfirst.it.fundsInToRecipients.RateEqualsAppliedRateTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

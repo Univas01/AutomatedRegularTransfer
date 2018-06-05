@@ -1,13 +1,15 @@
 package com.worldfirst.it.common;
 
-import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
-import com.worldfirst.it.constants.Auth;
-import com.worldfirst.it.constants.PathForQuote;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+
+import com.worldfirst.it.constants.Auth;
+import com.worldfirst.it.constants.BaseURI;
 import io.restassured.RestAssured;
 import io.restassured.authentication.AuthenticationScheme;
 import io.restassured.builder.RequestSpecBuilder;
@@ -21,6 +23,7 @@ import io.restassured.specification.ResponseSpecification;
 
 public class RestUtilities {
 	
+	private static Logger log = LogManager.getLogger(RestUtilities.class.getName());
 	public static String ENDPOINT;
 	public static RequestSpecBuilder REQUEST_BUILDER;
 	public static RequestSpecification REQUEST_SPEC;
@@ -40,7 +43,25 @@ public class RestUtilities {
 		headers.put("X-Originator", "WFO");
 		AuthenticationScheme authScheme = RestAssured.basic(Auth.USER, Auth.PASSWORD);
 		REQUEST_BUILDER = new RequestSpecBuilder();
-		REQUEST_BUILDER.setBaseUri(PathForQuote.BASE_URI);
+		REQUEST_BUILDER.setBaseUri(BaseURI.BASE_URI);
+		REQUEST_BUILDER.addHeaders(headers);
+		REQUEST_BUILDER.setAuth(authScheme);
+		REQUEST_BUILDER.setRelaxedHTTPSValidation();
+		REQUEST_SPEC = REQUEST_BUILDER.build();
+		return REQUEST_SPEC;
+		
+	}
+	
+	public static RequestSpecification postRequestSpecification () {
+		
+		Map <String, String> headers = new HashMap<String, String>();
+		headers.put("Authorization", "Basic d2ZvOmFoeDlqYWkxdWFmYWgyTW8=");
+		headers.put("Content-Type", "application/json");
+		headers.put("X-Correlation-ID", "1234");
+		headers.put("X-Originator", "WFO");
+		AuthenticationScheme authScheme = RestAssured.basic(Auth.USER, Auth.PASSWORD);
+		REQUEST_BUILDER = new RequestSpecBuilder();
+		REQUEST_BUILDER.setBaseUri(BaseURI.BASE_URI);
 		REQUEST_BUILDER.addHeaders(headers);
 		REQUEST_BUILDER.setAuth(authScheme);
 		REQUEST_BUILDER.setRelaxedHTTPSValidation();
@@ -53,7 +74,17 @@ public class RestUtilities {
 		
 		RESPONSE_BUILDER = new ResponseSpecBuilder();
 		RESPONSE_BUILDER.expectContentType(ContentType.JSON);
-		//RESPONSE_BUILDER.expectStatusCode(201);
+		RESPONSE_BUILDER.expectStatusCode(200);
+		RESPONSE_BUILDER.expectResponseTime(lessThan(60L), TimeUnit.SECONDS);
+		RESPONSE_SPEC = RESPONSE_BUILDER.build();
+		return RESPONSE_SPEC; 
+	}
+	
+	public static ResponseSpecification postResponseSpecification() {
+		
+		RESPONSE_BUILDER = new ResponseSpecBuilder();
+		RESPONSE_BUILDER.expectContentType(ContentType.JSON);
+		RESPONSE_BUILDER.expectStatusCode(201);
 		RESPONSE_BUILDER.expectResponseTime(lessThan(60L), TimeUnit.SECONDS);
 		RESPONSE_SPEC = RESPONSE_BUILDER.build();
 		return RESPONSE_SPEC; 
@@ -79,8 +110,13 @@ public class RestUtilities {
 		return rspec.pathParams(pathMaps);
 	}
 	
-	public static JsonPath getJsonPath(Response res){
-		String jsonPath = res.asString();
-		return new JsonPath(jsonPath);
+	public static String getQuoteResponse(Response res) {
+		String response = res.getBody().prettyPrint();
+		return response;
+	}
+	
+	public static JsonPath jsonParser(String respo) {
+		JsonPath quoteJsonPath = new JsonPath(respo);
+		return quoteJsonPath;
 	}
 }

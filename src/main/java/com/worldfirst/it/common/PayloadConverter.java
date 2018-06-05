@@ -10,7 +10,7 @@ public class PayloadConverter {
 	private static Logger log = LogManager.getLogger(PayloadConverter.class.getName());
 
 	public static String generatePayloadString(String filename) {
-		log.info("Inside PayloadConverter function");
+		//log.info("Inside PayloadConverter function");
 		String filePath = System.getProperty("user.dir") + "/Payloads/" + filename;
 		try {
 			return new String(Files.readAllBytes(Paths.get(filePath)));

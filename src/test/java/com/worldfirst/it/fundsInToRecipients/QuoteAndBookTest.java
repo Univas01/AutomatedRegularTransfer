@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 import com.worldfirst.it.common.PayloadConverter;
 import com.worldfirst.it.common.RestUtilities;
 import com.worldfirst.it.constants.EndPoints;
+import com.worldfirst.it.constants.PathForTransfer;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
@@ -18,21 +19,20 @@ public class QuoteAndBookTest {
 	private static Logger log = LogManager.getLogger(QuoteAndBookTest.class.getName());
 	RequestSpecification requestSpec;
 	ResponseSpecification responseSpec;
-	Response response;
-	String Id;
+	Response quoteResponse, bookResponse;
+	String quoteId;
 
 	@BeforeMethod
 	public void setUp() {
-		requestSpec = RestUtilities.getRequestSpecification();
-		responseSpec = RestUtilities.getResponseSpecification();
-		
+		requestSpec = RestUtilities.postRequestSpecification();
+		responseSpec = RestUtilities.postResponseSpecification();
 	}
 	
 	@Test
 	public void requestAQuoteTest() {
 		log.info("***Quote Test***");
 		String requestBody = PayloadConverter.generatePayloadString("GLPClientEURUSD.json");
-		response = 
+		quoteResponse = 
 		given()
 			.spec(RestUtilities.addPayloadToSpec(requestSpec, requestBody))
 		.when()
@@ -41,21 +41,26 @@ public class QuoteAndBookTest {
 			.spec(responseSpec)
 			.log().ifError()
 			.extract().response();	
-		JsonPath quoteJsonPath = RestUtilities.getJsonPath(response);
-		Id = quoteJsonPath.get("id");
+		String getQuoteresponse = RestUtilities.getQuoteResponse(quoteResponse);
+		JsonPath quoteJsonPath = RestUtilities.jsonParser(getQuoteresponse);
+		log.info(getQuoteresponse);
+		quoteId = quoteJsonPath.get("id");
 	}
 	
 	@Test (enabled = true, dependsOnMethods = {"requestAQuoteTest"})
 	public void bookAQuoteTest() {
-		log.info("***Booking Test***");
-		response = 
+		log.info("***Book Test***");
+		bookResponse = 
 		given()
-			.spec(RestUtilities.createPathParam(requestSpec, "quoteId", Id))
+			.spec(RestUtilities.createPathParam(requestSpec, "quoteId", quoteId))
+			.basePath(PathForTransfer.TRANSFER)
 		.when()
-			.post(EndPoints.TRANSFER)
+			.post(EndPoints.BOOK)
 		.then()
 			.spec(responseSpec)
 			.log().ifError()
-			.extract().response();	
+			.extract().response();
+		String getBookresponse = RestUtilities.getQuoteResponse(bookResponse);
+		log.info(getBookresponse);
 	}
 }

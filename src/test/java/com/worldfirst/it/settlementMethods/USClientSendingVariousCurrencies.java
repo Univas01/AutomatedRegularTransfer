@@ -6,15 +6,14 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import com.worldfirst.it.common.RestUtilities;
 import com.worldfirst.it.constants.EndPoints;
-
+import com.worldfirst.it.constants.PathForSettlement;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.equalTo;
-
 import java.util.HashMap;
 import java.util.Map;
+import static org.hamcrest.Matchers.*;
 
 
 public class USClientSendingVariousCurrencies {
@@ -27,6 +26,7 @@ public class USClientSendingVariousCurrencies {
 	@BeforeMethod
 	public void setUp() {
 		requestSpec = RestUtilities.getRequestSpecification();
+		requestSpec.basePath(PathForSettlement.SETTLEMENT);
 		responseSpec = RestUtilities.getResponseSpecification();
 	}
 	
@@ -45,8 +45,9 @@ public class USClientSendingVariousCurrencies {
 			.get(EndPoints.SETTLEMENT_METHOD)
 		.then()
 			.spec(responseSpec)
-            .log().all()
+			.body("availableMethods[0].code", equalTo("SWIFT"), "availableMethods[0].label", equalTo("Wire Transfer"))
 			.extract().response();
+		log.info(response.body().prettyPrint());
 	}
 	
 	@Test
@@ -64,8 +65,9 @@ public class USClientSendingVariousCurrencies {
 			.get(EndPoints.SETTLEMENT_METHOD)
 		.then()
 			.spec(responseSpec)
-            .log().all()
+			.body("availableMethods", hasSize(4), "availableMethods[3].code", equalTo("OLTB"))
 			.extract().response();
+		log.info(response.body().prettyPrint());
 	}
 	
 	@Test
@@ -83,8 +85,9 @@ public class USClientSendingVariousCurrencies {
 			.get(EndPoints.SETTLEMENT_METHOD)
 		.then()
 			.spec(responseSpec)
-            .log().all()
+			.body("availableMethods[0].code", equalTo("SWIFT"), "availableMethods[0].label", equalTo("Wire Transfer"))
 			.extract().response();
+		log.info(response.body().prettyPrint());
 	}
 	
 	@Test
@@ -102,8 +105,10 @@ public class USClientSendingVariousCurrencies {
 			.get(EndPoints.SETTLEMENT_METHOD)
 		.then()
 			.spec(responseSpec)
-            .log().all()
+			.body("availableMethods[0].code", equalTo("SWIFT"), "availableMethods[0].label", equalTo("Wire Transfer"))
+            .log().ifError()
 			.extract().response();
+		log.info(response.body().prettyPrint());
 	}
 	
 	@Test
@@ -121,8 +126,9 @@ public class USClientSendingVariousCurrencies {
 			.get(EndPoints.SETTLEMENT_METHOD)
 		.then()
 			.spec(responseSpec)
-            .log().all()
+			.body("availableMethods[0].code", equalTo("SWIFT"), "availableMethods[0].label", equalTo("Wire Transfer"))
 			.extract().response();
+		log.info(response.body().prettyPrint());
 	}
 	
 	@Test
@@ -140,7 +146,7 @@ public class USClientSendingVariousCurrencies {
 			.get(EndPoints.SETTLEMENT_METHOD)
 		.then()
 			.spec(responseSpec)
-            .log().all()
 			.extract().response();
+		log.info(response.body().prettyPrint());
 	}
 }

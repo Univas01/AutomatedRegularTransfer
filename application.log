@@ -1,117 +1,115 @@
-2018-06-01 12:22:09,136  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 12:22:09,147 ERROR [main] PayloadConverter:18 - java.nio.file.NoSuchFileException: /Users/ola.ajala/Rest_WorkSpace/AutomatedRegularTransfer/Payloads/F2RappliedRateEqualsInverseRate.json
-2018-06-01 12:25:40,553  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 12:25:40,567 ERROR [main] PayloadConverter:18 - java.nio.file.NoSuchFileException: /Users/ola.ajala/Rest_WorkSpace/AutomatedRegularTransfer/Payloads/F2RappliedRateEqualsInverseRate.json
-2018-06-01 12:34:00,388  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 12:34:00,402 ERROR [main] PayloadConverter:18 - java.nio.file.NoSuchFileException: /Users/ola.ajala/Rest_WorkSpace/AutomatedRegularTransfer/Payloads/F2RappliedRateEqualsInverseRate.json
-2018-06-01 12:40:02,067  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 12:40:02,121 ERROR [main] PayloadConverter:18 - java.nio.file.NoSuchFileException: /Users/ola.ajala/Rest_WorkSpace/AutomatedRegularTransfer/Payloads/F2RappliedRateEqualsInverseRate.json
-2018-06-01 12:55:40,940  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 12:55:40,950 ERROR [main] PayloadConverter:18 - java.nio.file.NoSuchFileException: /Users/ola.ajala/Rest_WorkSpace/AutomatedRegularTransfer/Payloads/F2RappliedRateEqualsInverseRate.json
-2018-06-01 13:53:20,695  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 13:53:58,763  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 13:55:40,286  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 13:59:03,268  INFO [main] AppliedRateEqualsRateTest:34 - AppliedRateEqualsRate Test
-2018-06-01 13:59:03,273  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 14:09:10,752  INFO [main] AppliedRateEqualsRateTest:34 - AppliedRateEqualsRate Test
-2018-06-01 14:09:10,756  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 15:06:13,044  INFO [main] AppliedRateEqualsRateTest:36 - AppliedRateEqualsRate Test
-2018-06-01 15:06:13,049  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 15:11:17,308  INFO [main] AppliedRateEqualsRateTest:37 - AppliedRateEqualsRate Test
-2018-06-01 15:11:17,312  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 15:11:52,204  INFO [main] AppliedRateEqualsRateTest:37 - AppliedRateEqualsRate Test
-2018-06-01 15:11:52,208  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 15:12:51,064  INFO [main] AppliedRateEqualsRateTest:37 - AppliedRateEqualsRate Test
-2018-06-01 15:12:51,069  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 15:18:25,940  INFO [main] AppliedRateEqualsRateTest:37 - AppliedRateEqualsRate Test
-2018-06-01 15:18:25,944  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 15:21:16,513  INFO [main] AppliedRateEqualsRateTest:37 - AppliedRateEqualsRate Test
-2018-06-01 15:21:16,518  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 15:33:08,433  INFO [main] AppliedRateEqualsRateTest:37 - *****AppliedRateEqualsRate Test*****
-2018-06-01 15:33:08,438  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 15:39:02,210  INFO [main] AppliedRateEqualsRateTest:37 - ***AppliedRateEqualsRate Test***
-2018-06-01 15:39:02,213  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 15:42:33,862  INFO [main] RateEqualsAppliedRateTest:37 - ***RateEqualsAppliedRate Test***
-2018-06-01 15:42:33,865  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 15:42:35,933  INFO [main] InverseRateEqualsAppliedRateTest:37 - ***InverseRateEqualsRate Test***
-2018-06-01 15:42:35,933  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 15:43:51,667  INFO [main] InverseRateEqualsAppliedRateTest:37 - ***InverseRateEqualsRate Test***
-2018-06-01 15:43:51,672  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 15:55:24,951  INFO [main] QuoteAndBook:37 - ***Quote Test***
-2018-06-01 15:55:24,955  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 15:55:27,032  INFO [main] QuoteAndBook:56 - ***Booking Test***
-2018-06-01 16:12:02,760  INFO [main] QuoteAndBook:37 - ***Quote Test***
-2018-06-01 16:12:02,764  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 16:12:05,167  INFO [main] QuoteAndBook:56 - ***Booking Test***
-2018-06-01 16:13:15,967  INFO [main] QuoteAndBook:37 - ***Quote Test***
-2018-06-01 16:13:15,972  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 16:13:18,234  INFO [main] QuoteAndBook:56 - ***Booking Test***
-2018-06-01 16:17:45,144  INFO [main] QuoteAndBook:37 - ***Quote Test***
-2018-06-01 16:17:45,147  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 16:17:48,518  INFO [main] QuoteAndBook:56 - ***Booking Test***
-2018-06-01 16:18:32,726  INFO [main] QuoteAndBook:37 - ***Quote Test***
-2018-06-01 16:18:32,730  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 16:18:34,917  INFO [main] QuoteAndBook:56 - ***Booking Test***
-2018-06-01 16:20:23,114  INFO [main] QuoteAndBook:37 - ***Quote Test***
-2018-06-01 16:20:23,118  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 16:20:25,277  INFO [main] QuoteAndBook:56 - ***Booking Test***
-2018-06-01 16:23:25,039  INFO [main] QuoteAndBook:36 - ***Quote Test***
-2018-06-01 16:23:25,048  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 16:23:27,301  INFO [main] QuoteAndBook:55 - ***Booking Test***
-2018-06-01 16:26:16,073  INFO [main] QuoteAndBook:37 - ***Quote Test***
-2018-06-01 16:26:16,077  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 16:26:18,117  INFO [main] QuoteAndBook:56 - ***Booking Test***
-2018-06-01 16:27:04,872  INFO [main] QuoteAndBook:37 - ***Quote Test***
-2018-06-01 16:27:04,877  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 16:27:06,946  INFO [main] QuoteAndBook:56 - ***Booking Test***
-2018-06-01 16:27:50,143  INFO [main] QuoteAndBook:37 - ***Quote Test***
-2018-06-01 16:27:50,146  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 16:27:52,188  INFO [main] QuoteAndBook:56 - ***Booking Test***
-2018-06-01 17:00:06,262  INFO [main] QuoteAndBookTest:34 - ***Quote Test***
-2018-06-01 17:00:06,266  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 17:00:08,501  INFO [main] QuoteAndBookTest:51 - ***Booking Test***
-2018-06-01 17:07:25,538  INFO [main] QuoteAndBookTest:35 - ***Quote Test***
-2018-06-01 17:07:25,542  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 17:07:27,966  INFO [main] QuoteAndBookTest:52 - ***Booking Test***
-2018-06-01 17:09:20,756  INFO [main] QuoteAndBookTest:35 - ***Quote Test***
-2018-06-01 17:09:20,760  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 17:09:22,694  INFO [main] QuoteAndBookTest:52 - ***Booking Test***
-2018-06-01 17:13:08,161  INFO [main] RateEqualsAppliedRateTest:35 - ***RateEqualsAppliedRate Test***
-2018-06-01 17:13:08,165  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 17:13:10,266  INFO [main] InverseRateEqualsAppliedRateTest:35 - ***InverseRateEqualsRate Test***
-2018-06-01 17:13:10,266  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 17:13:10,961  INFO [main] QuoteAndBookTest:35 - ***Quote Test***
-2018-06-01 17:13:10,961  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 17:13:11,675  INFO [main] QuoteAndBookTest:52 - ***Booking Test***
-2018-06-01 17:35:33,298  INFO [main] USClientSendingGBPTest:35 - ***USClientSendsGBP Test***
-2018-06-01 17:37:31,835  INFO [main] USClientSendingGBPTest:35 - ***USClientSendsGBP Test***
-2018-06-01 17:39:44,425  INFO [main] USClientSendingGBPTest:32 - ***USClientSendsGBP Test***
-2018-06-01 17:40:54,481  INFO [main] USClientSendingGBPTest:32 - ***USClientSendsGBP Test***
-2018-06-01 17:47:45,691  INFO [main] USClientSendingGBPTest:35 - ***USClientSendsGBP Test***
-2018-06-01 17:49:45,667  INFO [main] USClientSendingEURTest:35 - ***USClientSendsGBP Test***
-2018-06-01 17:52:59,030  INFO [main] USClientSendingUSDTest:73 - ***USClientSendsGBP Test***
-2018-06-01 17:53:00,232  INFO [main] USClientSendingUSDTest:54 - ***USClientSendsGBP Test***
-2018-06-01 17:53:00,410  INFO [main] USClientSendingUSDTest:35 - ***USClientSendsGBP Test***
-2018-06-01 17:57:01,813  INFO [main] RateEqualsAppliedRateTest:35 - ***RateEqualsAppliedRate Test***
-2018-06-01 17:57:01,818  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 17:57:03,988  INFO [main] InverseRateEqualsAppliedRateTest:35 - ***InverseRateEqualsRate Test***
-2018-06-01 17:57:03,989  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 17:57:04,658  INFO [main] QuoteAndBookTest:33 - ***Quote Test***
-2018-06-01 17:57:04,659  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 17:57:05,285  INFO [main] QuoteAndBookTest:50 - ***Booking Test***
-2018-06-01 17:57:05,525  INFO [main] USClientSendingVariousCurrencies:73 - ***USClientSendsGBP Test***
-2018-06-01 17:57:05,713  INFO [main] USClientSendingVariousCurrencies:54 - ***USClientSendsGBP Test***
-2018-06-01 17:57:05,860  INFO [main] USClientSendingVariousCurrencies:35 - ***USClientSendsGBP Test***
-2018-06-01 18:04:09,698  INFO [main] RateEqualsAppliedRateTest:35 - ***RateEqualsAppliedRate Test***
-2018-06-01 18:04:09,703  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 18:04:11,863  INFO [main] InverseRateEqualsAppliedRateTest:35 - ***InverseRateEqualsRate Test***
-2018-06-01 18:04:11,864  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 18:04:12,521  INFO [main] QuoteAndBookTest:33 - ***Quote Test***
-2018-06-01 18:04:12,521  INFO [main] PayloadConverter:13 - Inside PayloadConverter function
-2018-06-01 18:04:13,172  INFO [main] QuoteAndBookTest:50 - ***Booking Test***
-2018-06-01 18:04:13,427  INFO [main] USClientSendingVariousCurrencies:92 - ***USClientSendsAUD Test***
-2018-06-01 18:04:13,593  INFO [main] USClientSendingVariousCurrencies:111 - ***USClientSendsCAD Test***
-2018-06-01 18:04:13,743  INFO [main] USClientSendingVariousCurrencies:73 - ***USClientSendsEUR Test***
-2018-06-01 18:04:13,900  INFO [main] USClientSendingVariousCurrencies:54 - ***USClientSendsGBP Test***
-2018-06-01 18:04:14,058  INFO [main] USClientSendingVariousCurrencies:130 - ***USClientSendsPLN Test***
-2018-06-01 18:04:14,208  INFO [main] USClientSendingVariousCurrencies:35 - ***USClientSendsUSD Test***
+2018-06-05 15:07:34,735  INFO [main] QuoteAndBookTest:33 - ***Quote Test***
+2018-06-05 15:07:36,551  INFO [main] QuoteAndBookTest:46 - {
+    "id": "e31cce68-3c04-41ce-a548-b820a019e54b",
+    "clientAccount": "2170413207P",
+    "expiryTime": 1528207572,
+    "deal": {
+        "appliedRate": "1.148097",
+        "rate": "1.148097",
+        "inverseRate": "0.871007",
+        "valueDate": "2018-06-06",
+        "fundsInDate": "2018-06-06",
+        "send": {
+            "amount": "18.91",
+            "currency": "EUR"
+        },
+        "receive": {
+            "amount": "21.71",
+            "currency": "USD"
+        },
+        "totalSettlementAmount": {
+            "amount": "18.91",
+            "currency": "EUR"
+        }
+    },
+    "source": {
+        "type": "OLTB",
+        "sourceOfFunds": {
+            "id": "SAL",
+            "description": ""
+        },
+        "ownAccount": true
+    },
+    "destination": [
+        {
+            "type": "recipient",
+            "id": "664052",
+            "amount": "21.71",
+            "currency": "USD",
+            "date": "2018-06-06",
+            "reference": "OPTIONAL REF",
+            "reason": {
+                "id": "1",
+                "description": ""
+            },
+            "fee": {
+                "amount": "0.00",
+                "currency": "USD"
+            }
+        }
+    ]
+}
+2018-06-05 15:07:36,986  INFO [main] QuoteAndBookTest:52 - ***Book Test***
+2018-06-05 15:07:37,213  INFO [main] QuoteAndBookTest:64 - io.restassured.internal.RestAssuredResponseImpl@54e81b21
+2018-06-05 15:08:30,559  INFO [main] QuoteAndBookTest:33 - ***Quote Test***
+2018-06-05 15:08:32,618  INFO [main] QuoteAndBookTest:46 - {
+    "id": "5b0839bc-494b-4116-ab30-77fafd8249e0",
+    "clientAccount": "2170413207P",
+    "expiryTime": 1528207628,
+    "deal": {
+        "appliedRate": "1.148294",
+        "rate": "1.148294",
+        "inverseRate": "0.870857",
+        "valueDate": "2018-06-06",
+        "fundsInDate": "2018-06-06",
+        "send": {
+            "amount": "18.91",
+            "currency": "EUR"
+        },
+        "receive": {
+            "amount": "21.71",
+            "currency": "USD"
+        },
+        "totalSettlementAmount": {
+            "amount": "18.91",
+            "currency": "EUR"
+        }
+    },
+    "source": {
+        "type": "OLTB",
+        "sourceOfFunds": {
+            "id": "SAL",
+            "description": ""
+        },
+        "ownAccount": true
+    },
+    "destination": [
+        {
+            "type": "recipient",
+            "id": "664052",
+            "amount": "21.71",
+            "currency": "USD",
+            "date": "2018-06-06",
+            "reference": "OPTIONAL REF",
+            "reason": {
+                "id": "1",
+                "description": ""
+            },
+            "fee": {
+                "amount": "0.00",
+                "currency": "USD"
+            }
+        }
+    ]
+}
+2018-06-05 15:08:33,045  INFO [main] QuoteAndBookTest:52 - ***Book Test***
+2018-06-05 15:08:33,300  INFO [main] QuoteAndBookTest:64 - {
+    "deal": 4872400,
+    "payments": [
+        987840086
+    ],
+    "receivingBank": {
+        "id": 2,
+        "clientReference": "2170413207P"
+    }
+}
