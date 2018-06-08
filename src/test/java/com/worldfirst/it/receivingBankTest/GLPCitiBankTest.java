@@ -1,4 +1,4 @@
-package com.worldfirst.it.fundsInToRecipients;
+package com.worldfirst.it.receivingBankTest;
 
 import static io.restassured.RestAssured.*;
 import org.apache.log4j.LogManager;
@@ -14,9 +14,14 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 
-public class GLPreceivingBankBarclaysTest {
+public class GLPCitiBankTest {
 	
-	private static Logger log = LogManager.getLogger(GLPreceivingBankBarclaysTest.class.getName());
+	/** Return CitiBank for GL Private Client that buys EUR with USD.
+	 *  Get the dealId from this test and query database as follows;
+	 *  Select recBank from bo_deals where id = <dealId>
+	 */ 
+	
+	private static Logger log = LogManager.getLogger(GLPCitiBankTest.class.getName());
 	RequestSpecification requestSpec;
 	ResponseSpecification responseSpec;
 	Response quoteResponse, bookResponse;
@@ -29,9 +34,9 @@ public class GLPreceivingBankBarclaysTest {
 	}
 	
 	@Test
-	public void quoteReceivingBankBarclaysTest() {
+	public void quoteGLPCitiBankTest() {
 		log.info("***Quote Test***");
-		String requestBody = PayloadConverter.generatePayloadStringF2R("GLPClientSendsGBPBuyEUR.json");
+		String requestBody = PayloadConverter.generatePayloadStringF2R("GLPClientUSDEUR.json");
 		quoteResponse = 
 		given()
 			.spec(RestUtilities.addPayloadToSpec(requestSpec, requestBody))
@@ -47,8 +52,8 @@ public class GLPreceivingBankBarclaysTest {
 		quoteId = quoteJsonPath.get("id");
 	}
 	
-	@Test (enabled = true, dependsOnMethods = {"quoteReceivingBankBarclaysTest"})
-	public void bookReceivingBankBarclaysTest() {
+	@Test (enabled = true, dependsOnMethods = {"quoteGLPCitiBankTest"})
+	public void bookGLPCitiBankTest() {
 		log.info("***Book Test***");
 		bookResponse = 
 		given()

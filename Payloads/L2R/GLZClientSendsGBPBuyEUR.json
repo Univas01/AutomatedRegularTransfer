@@ -1,27 +1,24 @@
 {
-  "clientAccount": "2170413207P",
+  "clientAccount": "2100209003Z",
   "deal": {
     "send": {
-   	     "amount": "1.45",
-      "currency": "USD"
+      "amount": "1.00",
+      "currency": "GBP"
     },
     "receive": {
       "currency": "EUR"
     }
   },
   "source": {
-    "type": "OLTB",
-    "ownAccount": true,
-    "sourceOfFunds": {
-    	"id": "SAL"
-    }
+    "type": "ledger",
+    "id": "577c3bf00000000000037760"
   },
   "destination": [
     {
       "type": "recipient",
-      "id": "637777",
-      "amount": "1.45",
-      "currency": "USD",
+      "id": "682383",
+      "amount": "1.00",
+      "currency": "GBP",
       "reference": "OPTIONAL REF",
       "reason": {
       	"id": "1"

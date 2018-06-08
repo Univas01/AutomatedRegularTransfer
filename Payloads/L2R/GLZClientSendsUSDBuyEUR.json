@@ -1,8 +1,8 @@
 {
-  "clientAccount": "2170413207P",
+  "clientAccount": "2140519001Z",
   "deal": {
     "send": {
-   	     "amount": "1.45",
+      "amount": "1.00",
       "currency": "USD"
     },
     "receive": {
@@ -10,17 +10,14 @@
     }
   },
   "source": {
-    "type": "OLTB",
-    "ownAccount": true,
-    "sourceOfFunds": {
-    	"id": "SAL"
-    }
+    "type": "ledger",
+    "id": "577c3bf00000000000012145"
   },
   "destination": [
     {
       "type": "recipient",
-      "id": "637777",
-      "amount": "1.45",
+      "id": "751131",
+      "amount": "1.00",
       "currency": "USD",
       "reference": "OPTIONAL REF",
       "reason": {

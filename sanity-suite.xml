@@ -9,7 +9,12 @@
 
 	<test thread-count="5" name="RestAssured SanityTest">
 		<classes>
-			<class name="com.worldfirst.it.fundsInToRecipients.RateEqualsAppliedRateTest" />
+			<class name="com.worldfirst.it.receivingBankTest.GLCBarclaysTest" />
+			<class name="com.worldfirst.it.receivingBankTest.GLPBarclaysTest" />
+			<class name="com.worldfirst.it.receivingBankTest.GLZBarclaysTest" />
+			<class name="com.worldfirst.it.receivingBankTest.GLPCitiBankTest" />
+			<class name="com.worldfirst.it.receivingBankTest.USCCitiBankTest" />
+			<class name="com.worldfirst.it.receivingBankTest.GLZCitiBankTest" />
 			<class name="com.worldfirst.it.fundsInToRecipients.InverseRateEqualsAppliedRateTest" />
 			<class name="com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest" />
 			<class name="com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies" />

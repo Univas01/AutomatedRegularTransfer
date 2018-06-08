@@ -1,16 +1,16 @@
 {
-  "clientAccount": "2170413207P",
+  "clientAccount": "2110516004C",
   "deal": {
     "send": {
    	     "amount": "1.45",
-      "currency": "USD"
+      "currency": "GBP"
     },
     "receive": {
       "currency": "EUR"
     }
   },
   "source": {
-    "type": "OLTB",
+    "type": "SWIFT",
     "ownAccount": true,
     "sourceOfFunds": {
     	"id": "SAL"
@@ -19,9 +19,9 @@
   "destination": [
     {
       "type": "recipient",
-      "id": "637777",
+      "id": "123569",
       "amount": "1.45",
-      "currency": "USD",
+      "currency": "GBP",
       "reference": "OPTIONAL REF",
       "reason": {
       	"id": "1"

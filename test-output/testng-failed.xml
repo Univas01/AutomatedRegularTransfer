@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.worldfirst.it.fundsInToRecipients.InverseRateEqualsAppliedRateTest">
+      <class name="com.worldfirst.it.receivingBankTest.GLCBarclaysTest">
         <methods>
-          <include name="InverseRateEqualsAppliedRate"/>
           <include name="setUp"/>
+          <include name="bookGLCReceivingBankBarclaysTest"/>
+          <include name="quoteGLCReceivingBankBarclaysTest"/>
         </methods>
-      </class> <!-- com.worldfirst.it.fundsInToRecipients.InverseRateEqualsAppliedRateTest -->
+      </class> <!-- com.worldfirst.it.receivingBankTest.GLCBarclaysTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
