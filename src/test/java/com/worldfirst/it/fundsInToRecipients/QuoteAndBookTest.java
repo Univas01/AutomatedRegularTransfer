@@ -31,7 +31,7 @@ public class QuoteAndBookTest {
 	@Test
 	public void requestAQuoteTest() {
 		log.info("***Quote Test***");
-		String requestBody = PayloadConverter.generatePayloadString("GLPClientEURUSD.json");
+		String requestBody = PayloadConverter.generatePayloadStringF2R("GLPClientEURUSD.json");
 		quoteResponse = 
 		given()
 			.spec(RestUtilities.addPayloadToSpec(requestSpec, requestBody))

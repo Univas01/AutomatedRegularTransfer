@@ -31,7 +31,7 @@ public class GLCreceivingBankBarclaysTest {
 	@Test
 	public void quoteGLCReceivingBankBarclaysTest() {
 		log.info("***Quote Test***");
-		String requestBody = PayloadConverter.generatePayloadString("GLCClientSendsUSDBuyEUR.json");
+		String requestBody = PayloadConverter.generatePayloadStringF2R("GLCClientSendsUSDBuyEUR.json");
 		quoteResponse = 
 		given()
 			.spec(RestUtilities.addPayloadToSpec(requestSpec, requestBody))

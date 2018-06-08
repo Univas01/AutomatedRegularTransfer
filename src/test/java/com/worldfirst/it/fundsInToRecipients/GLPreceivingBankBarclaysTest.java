@@ -31,7 +31,7 @@ public class GLPreceivingBankBarclaysTest {
 	@Test
 	public void quoteReceivingBankBarclaysTest() {
 		log.info("***Quote Test***");
-		String requestBody = PayloadConverter.generatePayloadString("GLPClientSendsGBPBuyEUR.json");
+		String requestBody = PayloadConverter.generatePayloadStringF2R("GLPClientSendsGBPBuyEUR.json");
 		quoteResponse = 
 		given()
 			.spec(RestUtilities.addPayloadToSpec(requestSpec, requestBody))

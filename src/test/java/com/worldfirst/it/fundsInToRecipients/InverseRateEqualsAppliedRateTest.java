@@ -33,7 +33,7 @@ public class InverseRateEqualsAppliedRateTest {
 	@Test
 	public void InverseRateEqualsAppliedRate() {
 		log.info("***InverseRateEqualsRate Test***");
-		String requestBody = PayloadConverter.generatePayloadString("GLPClientUSDEUR.json");
+		String requestBody = PayloadConverter.generatePayloadStringF2R("GLPClientUSDEUR.json");
 		quoteResponse = 
 		given()
 			.spec(RestUtilities.addPayloadToSpec(requestSpec, requestBody))

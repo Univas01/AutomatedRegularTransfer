@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3686" started-at="2018-06-05T15:38:00Z" finished-at="2018-06-05T15:38:04Z">
+  <suite name="Default suite" duration-ms="3634" started-at="2018-06-08T15:09:44Z" finished-at="2018-06-08T15:09:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3686" started-at="2018-06-05T15:38:00Z" finished-at="2018-06-05T15:38:04Z">
-      <class name="com.worldfirst.it.fundsInToRecipients.GLCreceivingBankBarclaysTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.GLCreceivingBankBarclaysTest@3dd4520b]" name="setUp" is-config="true" duration-ms="1094" started-at="2018-06-05T15:38:00Z" finished-at="2018-06-05T15:38:01Z">
+    <test name="Default test" duration-ms="3634" started-at="2018-06-08T15:09:44Z" finished-at="2018-06-08T15:09:48Z">
+      <class name="com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest@3dd4520b]" name="setUp" is-config="true" duration-ms="1018" started-at="2018-06-08T15:09:44Z" finished-at="2018-06-08T15:09:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="quoteGLCReceivingBankBarclaysTest()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.GLCreceivingBankBarclaysTest@3dd4520b]" name="quoteGLCReceivingBankBarclaysTest" duration-ms="2300" started-at="2018-06-05T15:38:01Z" finished-at="2018-06-05T15:38:03Z">
+        <test-method status="PASS" signature="requestAQuoteTest()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest@3dd4520b]" name="requestAQuoteTest" duration-ms="2343" started-at="2018-06-08T15:09:45Z" finished-at="2018-06-08T15:09:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quoteGLCReceivingBankBarclaysTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.GLCreceivingBankBarclaysTest@3dd4520b]" name="setUp" is-config="true" duration-ms="5" started-at="2018-06-05T15:38:03Z" finished-at="2018-06-05T15:38:03Z">
+        </test-method> <!-- requestAQuoteTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest@3dd4520b]" name="setUp" is-config="true" duration-ms="6" started-at="2018-06-08T15:09:48Z" finished-at="2018-06-08T15:09:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="bookGLCReceivingBankBarclaysTest()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.GLCreceivingBankBarclaysTest@3dd4520b]" name="bookGLCReceivingBankBarclaysTest" duration-ms="253" started-at="2018-06-05T15:38:03Z" depends-on-methods="com.worldfirst.it.fundsInToRecipients.GLCreceivingBankBarclaysTest.quoteGLCReceivingBankBarclaysTest" finished-at="2018-06-05T15:38:04Z">
+        <test-method status="PASS" signature="bookAQuoteTest()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest@3dd4520b]" name="bookAQuoteTest" duration-ms="239" started-at="2018-06-08T15:09:48Z" depends-on-methods="com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest.requestAQuoteTest" finished-at="2018-06-08T15:09:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bookGLCReceivingBankBarclaysTest -->
-      </class> <!-- com.worldfirst.it.fundsInToRecipients.GLCreceivingBankBarclaysTest -->
+        </test-method> <!-- bookAQuoteTest -->
+      </class> <!-- com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
