@@ -33,7 +33,7 @@ public class RateEqualsAppliedRateTest {
 	@Test
 	public void appliedRateEqualsRate() {
 		log.info("***RateEqualsAppliedRate Test***");
-		String requestBody = PayloadConverter.generatePayloadString("GLPClientEURUSD.json");
+		String requestBody = PayloadConverter.generatePayloadStringF2R("GLPClientEURUSD.json");
 		quoteResponse = 
 		given()
 			.spec(RestUtilities.addPayloadToSpec(requestSpec, requestBody))

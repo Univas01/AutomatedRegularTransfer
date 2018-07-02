@@ -7,7 +7,7 @@
 			class-name="com.worldfirst.it.ExtentReportListener.ExtentReporterNG" />
 	</listeners>
 
-	<test thread-count="5" name="RestAssured SanityTest">
+	<test name="RestAssured SanityTest">
 		<classes>
 			<class name="com.worldfirst.it.receivingBankTest.GLCBarclaysTest" />
 			<class name="com.worldfirst.it.receivingBankTest.GLPBarclaysTest" />

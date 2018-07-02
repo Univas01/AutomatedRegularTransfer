@@ -527,3 +527,811 @@
         }
     ]
 }
+2018-06-19 11:15:02,732  INFO [main] InverseRateEqualsAppliedRateTest:35 - ***InverseRateEqualsRate Test***
+2018-06-19 11:15:04,793  INFO [main] InverseRateEqualsAppliedRateTest:47 - {
+    "id": "e7f5bd8b-f3b2-45ca-ae26-1ccf7e14e85c",
+    "clientAccount": "2170413207P",
+    "expiryTime": 1529403209,
+    "deal": {
+        "appliedRate": "0.852444",
+        "rate": "1.173097",
+        "inverseRate": "0.852444",
+        "valueDate": "2018-06-19",
+        "fundsInDate": "2018-06-19",
+        "send": {
+            "amount": "1.45",
+            "currency": "USD"
+        },
+        "receive": {
+            "amount": "1.24",
+            "currency": "EUR"
+        },
+        "totalSettlementAmount": {
+            "amount": "1.45",
+            "currency": "USD"
+        }
+    },
+    "source": {
+        "type": "OLTB",
+        "sourceOfFunds": {
+            "id": "SAL",
+            "description": ""
+        },
+        "ownAccount": true
+    },
+    "destination": [
+        {
+            "type": "recipient",
+            "id": "637777",
+            "amount": "1.24",
+            "currency": "EUR",
+            "date": "2018-06-19",
+            "reference": "OPTIONAL REF",
+            "reason": {
+                "id": "1",
+                "description": ""
+            },
+            "fee": {
+                "amount": "0.00",
+                "currency": "EUR"
+            }
+        }
+    ]
+}
+2018-06-19 11:15:05,390  INFO [main] QuoteAndBookTest:33 - ***Quote Test***
+2018-06-19 11:15:06,331  INFO [main] QuoteAndBookTest:46 - {
+    "id": "80e51338-a155-45b3-8724-5f92d2e8ab43",
+    "clientAccount": "2170413207P",
+    "expiryTime": 1529403211,
+    "deal": {
+        "appliedRate": "1.138129",
+        "rate": "1.138129",
+        "inverseRate": "0.878635",
+        "valueDate": "2018-06-19",
+        "fundsInDate": "2018-06-19",
+        "send": {
+            "amount": "18.91",
+            "currency": "EUR"
+        },
+        "receive": {
+            "amount": "21.52",
+            "currency": "USD"
+        },
+        "totalSettlementAmount": {
+            "amount": "18.91",
+            "currency": "EUR"
+        }
+    },
+    "source": {
+        "type": "OLTB",
+        "sourceOfFunds": {
+            "id": "SAL",
+            "description": ""
+        },
+        "ownAccount": true
+    },
+    "destination": [
+        {
+            "type": "recipient",
+            "id": "664052",
+            "amount": "21.52",
+            "currency": "USD",
+            "date": "2018-06-19",
+            "reference": "OPTIONAL REF",
+            "reason": {
+                "id": "1",
+                "description": ""
+            },
+            "fee": {
+                "amount": "0.00",
+                "currency": "USD"
+            }
+        }
+    ]
+}
+2018-06-19 11:15:06,362  INFO [main] QuoteAndBookTest:52 - ***Book Test***
+2018-06-19 11:15:06,645  INFO [main] QuoteAndBookTest:64 - {
+    "deal": 4875298,
+    "payments": [
+        987843477
+    ],
+    "receivingBank": {
+        "id": 2,
+        "clientReference": "2170413207P"
+    }
+}
+2018-06-19 11:15:06,651  INFO [main] RateEqualsAppliedRateTest:35 - ***RateEqualsAppliedRate Test***
+2018-06-19 11:15:06,652 ERROR [main] PayloadConverter:17 - java.nio.file.NoSuchFileException: /Users/ola.ajala/Rest_WorkSpace/AutomatedRegularTransfer/Payloads/GLPClientEURUSD.json
+2018-06-19 11:17:22,759  INFO [main] InverseRateEqualsAppliedRateTest:35 - ***InverseRateEqualsRate Test***
+2018-06-19 11:17:24,654  INFO [main] InverseRateEqualsAppliedRateTest:47 - {
+    "id": "fe3a6417-1986-4fa7-a257-12847113b7f4",
+    "clientAccount": "2170413207P",
+    "expiryTime": 1529403349,
+    "deal": {
+        "appliedRate": "0.852201",
+        "rate": "1.173432",
+        "inverseRate": "0.852201",
+        "valueDate": "2018-06-19",
+        "fundsInDate": "2018-06-19",
+        "send": {
+            "amount": "1.45",
+            "currency": "USD"
+        },
+        "receive": {
+            "amount": "1.24",
+            "currency": "EUR"
+        },
+        "totalSettlementAmount": {
+            "amount": "1.45",
+            "currency": "USD"
+        }
+    },
+    "source": {
+        "type": "OLTB",
+        "sourceOfFunds": {
+            "id": "SAL",
+            "description": ""
+        },
+        "ownAccount": true
+    },
+    "destination": [
+        {
+            "type": "recipient",
+            "id": "637777",
+            "amount": "1.24",
+            "currency": "EUR",
+            "date": "2018-06-19",
+            "reference": "OPTIONAL REF",
+            "reason": {
+                "id": "1",
+                "description": ""
+            },
+            "fee": {
+                "amount": "0.00",
+                "currency": "EUR"
+            }
+        }
+    ]
+}
+2018-06-19 11:17:25,178  INFO [main] QuoteAndBookTest:33 - ***Quote Test***
+2018-06-19 11:17:25,988  INFO [main] QuoteAndBookTest:46 - {
+    "id": "df155fbe-6368-46a6-a9e0-3fee3ada2322",
+    "clientAccount": "2170413207P",
+    "expiryTime": 1529403351,
+    "deal": {
+        "appliedRate": "1.138454",
+        "rate": "1.138454",
+        "inverseRate": "0.878384",
+        "valueDate": "2018-06-19",
+        "fundsInDate": "2018-06-19",
+        "send": {
+            "amount": "18.91",
+            "currency": "EUR"
+        },
+        "receive": {
+            "amount": "21.53",
+            "currency": "USD"
+        },
+        "totalSettlementAmount": {
+            "amount": "18.91",
+            "currency": "EUR"
+        }
+    },
+    "source": {
+        "type": "OLTB",
+        "sourceOfFunds": {
+            "id": "SAL",
+            "description": ""
+        },
+        "ownAccount": true
+    },
+    "destination": [
+        {
+            "type": "recipient",
+            "id": "664052",
+            "amount": "21.53",
+            "currency": "USD",
+            "date": "2018-06-19",
+            "reference": "OPTIONAL REF",
+            "reason": {
+                "id": "1",
+                "description": ""
+            },
+            "fee": {
+                "amount": "0.00",
+                "currency": "USD"
+            }
+        }
+    ]
+}
+2018-06-19 11:17:26,016  INFO [main] QuoteAndBookTest:52 - ***Book Test***
+2018-06-19 11:17:26,262  INFO [main] QuoteAndBookTest:64 - {
+    "deal": 4875299,
+    "payments": [
+        987843478
+    ],
+    "receivingBank": {
+        "id": 2,
+        "clientReference": "2170413207P"
+    }
+}
+2018-06-19 11:17:26,269  INFO [main] RateEqualsAppliedRateTest:35 - ***RateEqualsAppliedRate Test***
+2018-06-19 11:17:27,289  INFO [main] RateEqualsAppliedRateTest:48 - {
+    "id": "de77ab64-bbc8-44d1-b0d9-f71122f16c6c",
+    "clientAccount": "2170413207P",
+    "expiryTime": 1529403352,
+    "deal": {
+        "appliedRate": "1.138454",
+        "rate": "1.138454",
+        "inverseRate": "0.878384",
+        "valueDate": "2018-06-19",
+        "fundsInDate": "2018-06-19",
+        "send": {
+            "amount": "18.91",
+            "currency": "EUR"
+        },
+        "receive": {
+            "amount": "21.53",
+            "currency": "USD"
+        },
+        "totalSettlementAmount": {
+            "amount": "18.91",
+            "currency": "EUR"
+        }
+    },
+    "source": {
+        "type": "OLTB",
+        "sourceOfFunds": {
+            "id": "SAL",
+            "description": ""
+        },
+        "ownAccount": true
+    },
+    "destination": [
+        {
+            "type": "recipient",
+            "id": "664052",
+            "amount": "21.53",
+            "currency": "USD",
+            "date": "2018-06-19",
+            "reference": "OPTIONAL REF",
+            "reason": {
+                "id": "1",
+                "description": ""
+            },
+            "fee": {
+                "amount": "0.00",
+                "currency": "USD"
+            }
+        }
+    ]
+}
+2018-06-25 08:58:45,195  INFO [main] GLCBarclaysTest:38 - ***Quote Test***
+2018-06-25 08:58:47,333  INFO [main] GLCBarclaysTest:51 - {
+    "id": "fa1cc63d-8a57-478d-b7ee-d9ceb2cbd14f",
+    "clientAccount": "2110516004C",
+    "expiryTime": 1529913423,
+    "deal": {
+        "appliedRate": "1.126023",
+        "rate": "0.888081",
+        "inverseRate": "1.126023",
+        "valueDate": "2018-06-25",
+        "fundsInDate": "2018-06-25",
+        "send": {
+            "amount": "1.45",
+            "currency": "GBP"
+        },
+        "receive": {
+            "amount": "1.63",
+            "currency": "EUR"
+        },
+        "totalSettlementAmount": {
+            "amount": "1.45",
+            "currency": "GBP"
+        }
+    },
+    "source": {
+        "type": "SWIFT",
+        "sourceOfFunds": {
+            "id": "SAL",
+            "description": ""
+        },
+        "ownAccount": true
+    },
+    "destination": [
+        {
+            "type": "recipient",
+            "id": "123569",
+            "amount": "1.63",
+            "currency": "EUR",
+            "date": "2018-06-25",
+            "reference": "OPTIONAL REF",
+            "reason": {
+                "id": "1",
+                "description": ""
+            },
+            "fee": {
+                "amount": "0.00",
+                "currency": "EUR"
+            }
+        }
+    ]
+}
+2018-06-25 08:58:47,820  INFO [main] GLCBarclaysTest:57 - ***Book Test***
+2018-06-25 08:58:48,221  INFO [main] GLCBarclaysTest:69 - {
+    "deal": 4876574,
+    "payments": [
+        987844961
+    ],
+    "receivingBank": {
+        "id": 28,
+        "clientReference": "2110516004C"
+    }
+}
+2018-06-25 08:58:48,226  INFO [main] GLPBarclaysTest:38 - ***Quote Test***
+2018-06-25 08:58:49,246  INFO [main] GLPBarclaysTest:51 - {
+    "id": "ba7f0e59-3cce-4b18-ae9c-c87c632eabf3",
+    "clientAccount": "2100226004P",
+    "expiryTime": 1529913425,
+    "deal": {
+        "appliedRate": "1.126592",
+        "rate": "0.887633",
+        "inverseRate": "1.126592",
+        "valueDate": "2018-06-25",
+        "fundsInDate": "2018-06-25",
+        "send": {
+            "amount": "1000.00",
+            "currency": "GBP"
+        },
+        "receive": {
+            "amount": "1126.59",
+            "currency": "EUR"
+        },
+        "totalSettlementAmount": {
+            "amount": "1000.00",
+            "currency": "GBP"
+        }
+    },
+    "source": {
+        "type": "CHPS",
+        "sourceOfFunds": {
+            "id": "SAL",
+            "description": ""
+        },
+        "ownAccount": false
+    },
+    "destination": [
+        {
+            "type": "recipient",
+            "id": "52996",
+            "amount": "1126.59",
+            "currency": "EUR",
+            "date": "2018-06-25",
+            "reference": "OPTIONAL REF",
+            "reason": {
+                "id": "1",
+                "description": ""
+            },
+            "fee": {
+                "amount": "0.00",
+                "currency": "EUR"
+            }
+        }
+    ]
+}
+2018-06-25 08:58:49,266  INFO [main] GLPBarclaysTest:57 - ***Book Test***
+2018-06-25 08:58:49,643  INFO [main] GLPBarclaysTest:69 - {
+    "deal": 4876575,
+    "payments": [
+        987844962
+    ],
+    "receivingBank": {
+        "id": 1,
+        "clientReference": "2100226004P"
+    }
+}
+2018-06-25 08:58:49,648  INFO [main] GLZBarclaysTest:38 - ***Quote Test***
+2018-06-25 08:58:50,577  INFO [main] GLZBarclaysTest:51 - {
+    "id": "22665238-5ade-41c3-aa91-15829fc77b8c",
+    "clientAccount": "2100209003Z",
+    "expiryTime": 1529913444,
+    "deal": {
+        "appliedRate": "1.108962",
+        "rate": "0.901744",
+        "inverseRate": "1.108962",
+        "valueDate": "2018-06-25",
+        "fundsInDate": "2018-06-25",
+        "send": {
+            "amount": "1.00",
+            "currency": "GBP"
+        },
+        "receive": {
+            "amount": "1.11",
+            "currency": "EUR"
+        },
+        "totalSettlementAmount": {
+            "amount": "1.00",
+            "currency": "GBP"
+        }
+    },
+    "source": {
+        "type": "ledger",
+        "id": "577c3bf00000000000037760"
+    },
+    "destination": [
+        {
+            "type": "recipient",
+            "id": "682383",
+            "amount": "1.11",
+            "currency": "EUR",
+            "date": "2018-06-25",
+            "reference": "OPTIONAL REF",
+            "reason": {
+                "id": "1",
+                "description": ""
+            },
+            "fee": {
+                "amount": "0.00",
+                "currency": "EUR"
+            }
+        }
+    ]
+}
+2018-06-25 08:58:50,598  INFO [main] GLZBarclaysTest:57 - ***Book Test***
+2018-06-25 08:58:51,548  INFO [main] GLZBarclaysTest:69 - {
+    "deal": 4876576
+}
+2018-06-25 08:58:51,552  INFO [main] GLPCitiBankTest:38 - ***Quote Test***
+2018-06-25 08:58:52,581  INFO [main] GLPCitiBankTest:51 - {
+    "id": "da2b3244-a428-4fcf-b754-2c06062a9d2e",
+    "clientAccount": "2170413207P",
+    "expiryTime": 1529913428,
+    "deal": {
+        "appliedRate": "0.845914",
+        "rate": "1.182153",
+        "inverseRate": "0.845914",
+        "valueDate": "2018-06-25",
+        "fundsInDate": "2018-06-25",
+        "send": {
+            "amount": "1.45",
+            "currency": "USD"
+        },
+        "receive": {
+            "amount": "1.23",
+            "currency": "EUR"
+        },
+        "totalSettlementAmount": {
+            "amount": "1.45",
+            "currency": "USD"
+        }
+    },
+    "source": {
+        "type": "OLTB",
+        "sourceOfFunds": {
+            "id": "SAL",
+            "description": ""
+        },
+        "ownAccount": true
+    },
+    "destination": [
+        {
+            "type": "recipient",
+            "id": "637777",
+            "amount": "1.23",
+            "currency": "EUR",
+            "date": "2018-06-25",
+            "reference": "OPTIONAL REF",
+            "reason": {
+                "id": "1",
+                "description": ""
+            },
+            "fee": {
+                "amount": "0.00",
+                "currency": "EUR"
+            }
+        }
+    ]
+}
+2018-06-25 08:58:52,606  INFO [main] GLPCitiBankTest:57 - ***Book Test***
+2018-06-25 08:58:53,039  INFO [main] GLPCitiBankTest:69 - {
+    "deal": 4876577,
+    "payments": [
+        987844964
+    ],
+    "receivingBank": {
+        "id": 30,
+        "clientReference": "2170413207P"
+    }
+}
+2018-06-25 08:58:53,045  INFO [main] USCCitiBankTest:38 - ***Quote Test***
+2018-06-25 08:58:54,051  INFO [main] USCCitiBankTest:51 - {
+    "id": "ffd71447-8573-4935-aebe-4a8c32877397",
+    "clientAccount": "2110516004C",
+    "expiryTime": 1529913430,
+    "deal": {
+        "appliedRate": "1.125895",
+        "rate": "0.888182",
+        "inverseRate": "1.125895",
+        "valueDate": "2018-06-25",
+        "fundsInDate": "2018-06-25",
+        "send": {
+            "amount": "1.45",
+            "currency": "GBP"
+        },
+        "receive": {
+            "amount": "1.63",
+            "currency": "EUR"
+        },
+        "totalSettlementAmount": {
+            "amount": "1.45",
+            "currency": "GBP"
+        }
+    },
+    "source": {
+        "type": "SWIFT",
+        "sourceOfFunds": {
+            "id": "SAL",
+            "description": ""
+        },
+        "ownAccount": true
+    },
+    "destination": [
+        {
+            "type": "recipient",
+            "id": "123569",
+            "amount": "1.63",
+            "currency": "EUR",
+            "date": "2018-06-25",
+            "reference": "OPTIONAL REF",
+            "reason": {
+                "id": "1",
+                "description": ""
+            },
+            "fee": {
+                "amount": "0.00",
+                "currency": "EUR"
+            }
+        }
+    ]
+}
+2018-06-25 08:58:54,069  INFO [main] USCCitiBankTest:57 - ***Book Test***
+2018-06-25 08:58:54,458  INFO [main] USCCitiBankTest:69 - {
+    "deal": 4876578,
+    "payments": [
+        987844965
+    ],
+    "receivingBank": {
+        "id": 28,
+        "clientReference": "2110516004C"
+    }
+}
+2018-06-25 08:58:54,463  INFO [main] GLZCitiBankTest:38 - ***Quote Test***
+2018-06-25 08:58:56,175  INFO [main] GLZCitiBankTest:51 - {
+    "id": "3d166d49-de29-4740-a35f-a7a615907d80",
+    "clientAccount": "2140519001Z",
+    "expiryTime": 1529913449,
+    "deal": {
+        "appliedRate": "0.837327",
+        "rate": "1.194277",
+        "inverseRate": "0.837327",
+        "valueDate": "2018-06-25",
+        "fundsInDate": "2018-06-25",
+        "send": {
+            "amount": "1.00",
+            "currency": "USD"
+        },
+        "receive": {
+            "amount": "0.84",
+            "currency": "EUR"
+        },
+        "totalSettlementAmount": {
+            "amount": "1.00",
+            "currency": "USD"
+        }
+    },
+    "source": {
+        "type": "ledger",
+        "id": "577c3bf00000000000012145"
+    },
+    "destination": [
+        {
+            "type": "recipient",
+            "id": "751131",
+            "amount": "0.84",
+            "currency": "EUR",
+            "date": "2018-06-25",
+            "reference": "OPTIONAL REF",
+            "reason": {
+                "id": "1",
+                "description": ""
+            },
+            "fee": {
+                "amount": "0.00",
+                "currency": "EUR"
+            }
+        }
+    ]
+}
+2018-06-25 08:58:56,192  INFO [main] GLZCitiBankTest:57 - ***Book Test***
+2018-06-25 08:58:56,914  INFO [main] GLZCitiBankTest:69 - {
+    "deal": 4876579
+}
+2018-06-25 08:58:56,918  INFO [main] InverseRateEqualsAppliedRateTest:35 - ***InverseRateEqualsRate Test***
+2018-06-25 08:58:58,347  INFO [main] InverseRateEqualsAppliedRateTest:47 - {
+    "id": "3af3eb0c-b793-4c58-8785-ded5a50e17fb",
+    "clientAccount": "2170413207P",
+    "expiryTime": 1529913434,
+    "deal": {
+        "appliedRate": "0.845863",
+        "rate": "1.182224",
+        "inverseRate": "0.845863",
+        "valueDate": "2018-06-25",
+        "fundsInDate": "2018-06-25",
+        "send": {
+            "amount": "1.45",
+            "currency": "USD"
+        },
+        "receive": {
+            "amount": "1.23",
+            "currency": "EUR"
+        },
+        "totalSettlementAmount": {
+            "amount": "1.45",
+            "currency": "USD"
+        }
+    },
+    "source": {
+        "type": "OLTB",
+        "sourceOfFunds": {
+            "id": "SAL",
+            "description": ""
+        },
+        "ownAccount": true
+    },
+    "destination": [
+        {
+            "type": "recipient",
+            "id": "637777",
+            "amount": "1.23",
+            "currency": "EUR",
+            "date": "2018-06-25",
+            "reference": "OPTIONAL REF",
+            "reason": {
+                "id": "1",
+                "description": ""
+            },
+            "fee": {
+                "amount": "0.00",
+                "currency": "EUR"
+            }
+        }
+    ]
+}
+2018-06-25 08:58:58,381  INFO [main] QuoteAndBookTest:33 - ***Quote Test***
+2018-06-25 08:58:59,473  INFO [main] QuoteAndBookTest:46 - {
+    "id": "f0d67cd8-44d6-4f40-ab47-09c7c90f72ea",
+    "clientAccount": "2170413207P",
+    "expiryTime": 1529913435,
+    "deal": {
+        "appliedRate": "1.147013",
+        "rate": "1.147013",
+        "inverseRate": "0.87183",
+        "valueDate": "2018-06-25",
+        "fundsInDate": "2018-06-25",
+        "send": {
+            "amount": "18.91",
+            "currency": "EUR"
+        },
+        "receive": {
+            "amount": "21.69",
+            "currency": "USD"
+        },
+        "totalSettlementAmount": {
+            "amount": "18.91",
+            "currency": "EUR"
+        }
+    },
+    "source": {
+        "type": "OLTB",
+        "sourceOfFunds": {
+            "id": "SAL",
+            "description": ""
+        },
+        "ownAccount": true
+    },
+    "destination": [
+        {
+            "type": "recipient",
+            "id": "664052",
+            "amount": "21.69",
+            "currency": "USD",
+            "date": "2018-06-25",
+            "reference": "OPTIONAL REF",
+            "reason": {
+                "id": "1",
+                "description": ""
+            },
+            "fee": {
+                "amount": "0.00",
+                "currency": "USD"
+            }
+        }
+    ]
+}
+2018-06-25 08:58:59,490  INFO [main] QuoteAndBookTest:52 - ***Book Test***
+2018-06-25 08:58:59,856  INFO [main] QuoteAndBookTest:64 - {
+    "deal": 4876580,
+    "payments": [
+        987844967
+    ],
+    "receivingBank": {
+        "id": 2,
+        "clientReference": "2170413207P"
+    }
+}
+2018-06-25 08:58:59,862  INFO [main] USClientSendingVariousCurrencies:95 - ***USClientSendsAUD Test***
+2018-06-25 08:59:00,245  INFO [main] USClientSendingVariousCurrencies:111 - {
+    "availableMethods": [
+        {
+            "code": "SWIFT",
+            "label": "Wire Transfer"
+        }
+    ]
+}
+2018-06-25 08:59:00,249  INFO [main] USClientSendingVariousCurrencies:116 - ***USClientSendsCAD Test***
+2018-06-25 08:59:00,596  INFO [main] USClientSendingVariousCurrencies:131 - {
+    "availableMethods": [
+        {
+            "code": "SWIFT",
+            "label": "Wire Transfer"
+        }
+    ]
+}
+2018-06-25 08:59:00,599  INFO [main] USClientSendingVariousCurrencies:75 - ***USClientSendsEUR Test***
+2018-06-25 08:59:00,964  INFO [main] USClientSendingVariousCurrencies:90 - {
+    "availableMethods": [
+        {
+            "code": "SWIFT",
+            "label": "Wire Transfer"
+        }
+    ]
+}
+2018-06-25 08:59:00,968  INFO [main] USClientSendingVariousCurrencies:55 - ***USClientSendsGBP Test***
+2018-06-25 08:59:01,529  INFO [main] USClientSendingVariousCurrencies:70 - {
+    "availableMethods": [
+        {
+            "code": "BACS",
+            "label": "BACS - 3 working day payment"
+        },
+        {
+            "code": "SWIFT",
+            "label": "Wire Transfer"
+        },
+        {
+            "code": "CHPS",
+            "label": "CHAPS transfer"
+        },
+        {
+            "code": "OLTB",
+            "label": "Online or Telephone banking (Faster Payment)"
+        }
+    ]
+}
+2018-06-25 08:59:01,533  INFO [main] USClientSendingVariousCurrencies:136 - ***USClientSendsPLN Test***
+2018-06-25 08:59:01,815  INFO [main] USClientSendingVariousCurrencies:150 - {
+    "availableMethods": [
+        {
+            "code": "SWIFT",
+            "label": "Wire Transfer"
+        }
+    ]
+}
+2018-06-25 08:59:01,819  INFO [main] USClientSendingVariousCurrencies:35 - ***USClientSendsUSD Test***
+2018-06-25 08:59:02,148  INFO [main] USClientSendingVariousCurrencies:50 - {
+    "availableMethods": [
+        {
+            "code": "SWIFT",
+            "label": "Wire Transfer"
+        }
+    ]
+}

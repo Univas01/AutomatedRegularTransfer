@@ -2,192 +2,192 @@
 <testng-results skipped="0" failed="0" ignored="0" total="21" passed="21">
   <reporter-output>
   </reporter-output>
-  <suite name="Sanity Suite" duration-ms="13143" started-at="2018-06-08T16:36:27Z" finished-at="2018-06-08T16:36:40Z">
+  <suite name="Sanity Suite" duration-ms="18045" started-at="2018-06-25T07:58:44Z" finished-at="2018-06-25T07:59:02Z">
     <groups>
     </groups>
-    <test name="RestAssured SanityTest" duration-ms="13143" started-at="2018-06-08T16:36:27Z" finished-at="2018-06-08T16:36:40Z">
+    <test name="RestAssured SanityTest" duration-ms="18045" started-at="2018-06-25T07:58:44Z" finished-at="2018-06-25T07:59:02Z">
       <class name="com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@79be0360]" name="setUp" is-config="true" duration-ms="4" started-at="2018-06-08T16:36:38Z" finished-at="2018-06-08T16:36:38Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@79be0360]" name="setUp" is-config="true" duration-ms="3" started-at="2018-06-25T07:58:59Z" finished-at="2018-06-25T07:58:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="USClientSendsAUDTest()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@79be0360]" name="USClientSendsAUDTest" duration-ms="277" started-at="2018-06-08T16:36:38Z" finished-at="2018-06-08T16:36:39Z">
+        <test-method status="PASS" signature="USClientSendsAUDTest()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@79be0360]" name="USClientSendsAUDTest" duration-ms="385" started-at="2018-06-25T07:58:59Z" finished-at="2018-06-25T07:59:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- USClientSendsAUDTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@79be0360]" name="setUp" is-config="true" duration-ms="3" started-at="2018-06-08T16:36:39Z" finished-at="2018-06-08T16:36:39Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@79be0360]" name="setUp" is-config="true" duration-ms="1" started-at="2018-06-25T07:59:00Z" finished-at="2018-06-25T07:59:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="USClientSendsCADTest()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@79be0360]" name="USClientSendsCADTest" duration-ms="222" started-at="2018-06-08T16:36:39Z" finished-at="2018-06-08T16:36:39Z">
+        <test-method status="PASS" signature="USClientSendsCADTest()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@79be0360]" name="USClientSendsCADTest" duration-ms="348" started-at="2018-06-25T07:59:00Z" finished-at="2018-06-25T07:59:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- USClientSendsCADTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@79be0360]" name="setUp" is-config="true" duration-ms="2" started-at="2018-06-08T16:36:39Z" finished-at="2018-06-08T16:36:39Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@79be0360]" name="setUp" is-config="true" duration-ms="1" started-at="2018-06-25T07:59:00Z" finished-at="2018-06-25T07:59:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="USClientSendsEURTest()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@79be0360]" name="USClientSendsEURTest" duration-ms="176" started-at="2018-06-08T16:36:39Z" finished-at="2018-06-08T16:36:39Z">
+        <test-method status="PASS" signature="USClientSendsEURTest()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@79be0360]" name="USClientSendsEURTest" duration-ms="367" started-at="2018-06-25T07:59:00Z" finished-at="2018-06-25T07:59:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- USClientSendsEURTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@79be0360]" name="setUp" is-config="true" duration-ms="5" started-at="2018-06-08T16:36:39Z" finished-at="2018-06-08T16:36:39Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@79be0360]" name="setUp" is-config="true" duration-ms="1" started-at="2018-06-25T07:59:00Z" finished-at="2018-06-25T07:59:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="USClientSendsGBPTest()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@79be0360]" name="USClientSendsGBPTest" duration-ms="182" started-at="2018-06-08T16:36:39Z" finished-at="2018-06-08T16:36:39Z">
+        <test-method status="PASS" signature="USClientSendsGBPTest()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@79be0360]" name="USClientSendsGBPTest" duration-ms="562" started-at="2018-06-25T07:59:00Z" finished-at="2018-06-25T07:59:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- USClientSendsGBPTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@79be0360]" name="setUp" is-config="true" duration-ms="5" started-at="2018-06-08T16:36:39Z" finished-at="2018-06-08T16:36:39Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@79be0360]" name="setUp" is-config="true" duration-ms="2" started-at="2018-06-25T07:59:01Z" finished-at="2018-06-25T07:59:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="USClientSendsPLNTest()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@79be0360]" name="USClientSendsPLNTest" duration-ms="146" started-at="2018-06-08T16:36:39Z" finished-at="2018-06-08T16:36:39Z">
+        <test-method status="PASS" signature="USClientSendsPLNTest()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@79be0360]" name="USClientSendsPLNTest" duration-ms="284" started-at="2018-06-25T07:59:01Z" finished-at="2018-06-25T07:59:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- USClientSendsPLNTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@79be0360]" name="setUp" is-config="true" duration-ms="2" started-at="2018-06-08T16:36:39Z" finished-at="2018-06-08T16:36:39Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@79be0360]" name="setUp" is-config="true" duration-ms="1" started-at="2018-06-25T07:59:01Z" finished-at="2018-06-25T07:59:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="USClientSendsUSDTest()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@79be0360]" name="USClientSendsUSDTest" duration-ms="188" started-at="2018-06-08T16:36:39Z" finished-at="2018-06-08T16:36:40Z">
+        <test-method status="PASS" signature="USClientSendsUSDTest()[pri:0, instance:com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies@79be0360]" name="USClientSendsUSDTest" duration-ms="331" started-at="2018-06-25T07:59:01Z" finished-at="2018-06-25T07:59:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- USClientSendsUSDTest -->
       </class> <!-- com.worldfirst.it.settlementMethods.USClientSendingVariousCurrencies -->
       <class name="com.worldfirst.it.fundsInToRecipients.InverseRateEqualsAppliedRateTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.InverseRateEqualsAppliedRateTest@4973813a]" name="setUp" is-config="true" duration-ms="2" started-at="2018-06-08T16:36:36Z" finished-at="2018-06-08T16:36:36Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.InverseRateEqualsAppliedRateTest@4973813a]" name="setUp" is-config="true" duration-ms="1" started-at="2018-06-25T07:58:56Z" finished-at="2018-06-25T07:58:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="InverseRateEqualsAppliedRate()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.InverseRateEqualsAppliedRateTest@4973813a]" name="InverseRateEqualsAppliedRate" duration-ms="894" started-at="2018-06-08T16:36:36Z" finished-at="2018-06-08T16:36:37Z">
+        <test-method status="PASS" signature="InverseRateEqualsAppliedRate()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.InverseRateEqualsAppliedRateTest@4973813a]" name="InverseRateEqualsAppliedRate" duration-ms="1460" started-at="2018-06-25T07:58:56Z" finished-at="2018-06-25T07:58:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InverseRateEqualsAppliedRate -->
       </class> <!-- com.worldfirst.it.fundsInToRecipients.InverseRateEqualsAppliedRateTest -->
       <class name="com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest@6321e813]" name="setUp" is-config="true" duration-ms="2" started-at="2018-06-08T16:36:37Z" finished-at="2018-06-08T16:36:37Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest@6321e813]" name="setUp" is-config="true" duration-ms="2" started-at="2018-06-25T07:58:58Z" finished-at="2018-06-25T07:58:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="requestAQuoteTest()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest@6321e813]" name="requestAQuoteTest" duration-ms="818" started-at="2018-06-08T16:36:37Z" finished-at="2018-06-08T16:36:38Z">
+        <test-method status="PASS" signature="requestAQuoteTest()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest@6321e813]" name="requestAQuoteTest" duration-ms="1107" started-at="2018-06-25T07:58:58Z" finished-at="2018-06-25T07:58:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- requestAQuoteTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest@6321e813]" name="setUp" is-config="true" duration-ms="3" started-at="2018-06-08T16:36:38Z" finished-at="2018-06-08T16:36:38Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest@6321e813]" name="setUp" is-config="true" duration-ms="1" started-at="2018-06-25T07:58:59Z" finished-at="2018-06-25T07:58:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="bookAQuoteTest()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest@6321e813]" name="bookAQuoteTest" duration-ms="222" started-at="2018-06-08T16:36:38Z" depends-on-methods="com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest.requestAQuoteTest" finished-at="2018-06-08T16:36:38Z">
+        <test-method status="PASS" signature="bookAQuoteTest()[pri:0, instance:com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest@6321e813]" name="bookAQuoteTest" duration-ms="368" started-at="2018-06-25T07:58:59Z" depends-on-methods="com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest.requestAQuoteTest" finished-at="2018-06-25T07:58:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookAQuoteTest -->
       </class> <!-- com.worldfirst.it.fundsInToRecipients.QuoteAndBookTest -->
       <class name="com.worldfirst.it.receivingBankTest.GLPBarclaysTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLPBarclaysTest@50b494a6]" name="setUp" is-config="true" duration-ms="3" started-at="2018-06-08T16:36:31Z" finished-at="2018-06-08T16:36:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLPBarclaysTest@50b494a6]" name="setUp" is-config="true" duration-ms="3" started-at="2018-06-25T07:58:48Z" finished-at="2018-06-25T07:58:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="quoteGLPBarclaysTest()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLPBarclaysTest@50b494a6]" name="quoteGLPBarclaysTest" duration-ms="737" started-at="2018-06-08T16:36:31Z" finished-at="2018-06-08T16:36:32Z">
+        <test-method status="PASS" signature="quoteGLPBarclaysTest()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLPBarclaysTest@50b494a6]" name="quoteGLPBarclaysTest" duration-ms="1036" started-at="2018-06-25T07:58:48Z" finished-at="2018-06-25T07:58:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quoteGLPBarclaysTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLPBarclaysTest@50b494a6]" name="setUp" is-config="true" duration-ms="6" started-at="2018-06-08T16:36:32Z" finished-at="2018-06-08T16:36:32Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLPBarclaysTest@50b494a6]" name="setUp" is-config="true" duration-ms="2" started-at="2018-06-25T07:58:49Z" finished-at="2018-06-25T07:58:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="bookGLPBarclaysTest()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLPBarclaysTest@50b494a6]" name="bookGLPBarclaysTest" duration-ms="223" started-at="2018-06-08T16:36:32Z" depends-on-methods="com.worldfirst.it.receivingBankTest.GLPBarclaysTest.quoteGLPBarclaysTest" finished-at="2018-06-08T16:36:32Z">
+        <test-method status="PASS" signature="bookGLPBarclaysTest()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLPBarclaysTest@50b494a6]" name="bookGLPBarclaysTest" duration-ms="378" started-at="2018-06-25T07:58:49Z" depends-on-methods="com.worldfirst.it.receivingBankTest.GLPBarclaysTest.quoteGLPBarclaysTest" finished-at="2018-06-25T07:58:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookGLPBarclaysTest -->
       </class> <!-- com.worldfirst.it.receivingBankTest.GLPBarclaysTest -->
       <class name="com.worldfirst.it.receivingBankTest.GLZCitiBankTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLZCitiBankTest@cd2dae5]" name="setUp" is-config="true" duration-ms="2" started-at="2018-06-08T16:36:35Z" finished-at="2018-06-08T16:36:35Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLZCitiBankTest@cd2dae5]" name="setUp" is-config="true" duration-ms="2" started-at="2018-06-25T07:58:54Z" finished-at="2018-06-25T07:58:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="quoteGLZCitiBankTest()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLZCitiBankTest@cd2dae5]" name="quoteGLZCitiBankTest" duration-ms="828" started-at="2018-06-08T16:36:35Z" finished-at="2018-06-08T16:36:36Z">
+        <test-method status="PASS" signature="quoteGLZCitiBankTest()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLZCitiBankTest@cd2dae5]" name="quoteGLZCitiBankTest" duration-ms="1727" started-at="2018-06-25T07:58:54Z" finished-at="2018-06-25T07:58:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quoteGLZCitiBankTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLZCitiBankTest@cd2dae5]" name="setUp" is-config="true" duration-ms="2" started-at="2018-06-08T16:36:36Z" finished-at="2018-06-08T16:36:36Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLZCitiBankTest@cd2dae5]" name="setUp" is-config="true" duration-ms="1" started-at="2018-06-25T07:58:56Z" finished-at="2018-06-25T07:58:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="bookGLZCitiBankTest()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLZCitiBankTest@cd2dae5]" name="bookGLZCitiBankTest" duration-ms="554" started-at="2018-06-08T16:36:36Z" depends-on-methods="com.worldfirst.it.receivingBankTest.GLZCitiBankTest.quoteGLZCitiBankTest" finished-at="2018-06-08T16:36:36Z">
+        <test-method status="PASS" signature="bookGLZCitiBankTest()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLZCitiBankTest@cd2dae5]" name="bookGLZCitiBankTest" duration-ms="723" started-at="2018-06-25T07:58:56Z" depends-on-methods="com.worldfirst.it.receivingBankTest.GLZCitiBankTest.quoteGLZCitiBankTest" finished-at="2018-06-25T07:58:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookGLZCitiBankTest -->
       </class> <!-- com.worldfirst.it.receivingBankTest.GLZCitiBankTest -->
       <class name="com.worldfirst.it.receivingBankTest.GLCBarclaysTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLCBarclaysTest@35d176f7]" name="setUp" is-config="true" duration-ms="1170" started-at="2018-06-08T16:36:27Z" finished-at="2018-06-08T16:36:28Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLCBarclaysTest@35d176f7]" name="setUp" is-config="true" duration-ms="1051" started-at="2018-06-25T07:58:44Z" finished-at="2018-06-25T07:58:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="quoteGLCBarclaysTest()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLCBarclaysTest@35d176f7]" name="quoteGLCBarclaysTest" duration-ms="2914" started-at="2018-06-08T16:36:28Z" finished-at="2018-06-08T16:36:31Z">
+        <test-method status="PASS" signature="quoteGLCBarclaysTest()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLCBarclaysTest@35d176f7]" name="quoteGLCBarclaysTest" duration-ms="2621" started-at="2018-06-25T07:58:45Z" finished-at="2018-06-25T07:58:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quoteGLCBarclaysTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLCBarclaysTest@35d176f7]" name="setUp" is-config="true" duration-ms="5" started-at="2018-06-08T16:36:31Z" finished-at="2018-06-08T16:36:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLCBarclaysTest@35d176f7]" name="setUp" is-config="true" duration-ms="4" started-at="2018-06-25T07:58:47Z" finished-at="2018-06-25T07:58:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="bookGLCBarclaysTest()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLCBarclaysTest@35d176f7]" name="bookGLCBarclaysTest" duration-ms="266" started-at="2018-06-08T16:36:31Z" depends-on-methods="com.worldfirst.it.receivingBankTest.GLCBarclaysTest.quoteGLCBarclaysTest" finished-at="2018-06-08T16:36:31Z">
+        <test-method status="PASS" signature="bookGLCBarclaysTest()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLCBarclaysTest@35d176f7]" name="bookGLCBarclaysTest" duration-ms="403" started-at="2018-06-25T07:58:47Z" depends-on-methods="com.worldfirst.it.receivingBankTest.GLCBarclaysTest.quoteGLCBarclaysTest" finished-at="2018-06-25T07:58:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookGLCBarclaysTest -->
       </class> <!-- com.worldfirst.it.receivingBankTest.GLCBarclaysTest -->
       <class name="com.worldfirst.it.receivingBankTest.GLPCitiBankTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLPCitiBankTest@3d99d22e]" name="setUp" is-config="true" duration-ms="3" started-at="2018-06-08T16:36:33Z" finished-at="2018-06-08T16:36:33Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLPCitiBankTest@3d99d22e]" name="setUp" is-config="true" duration-ms="2" started-at="2018-06-25T07:58:51Z" finished-at="2018-06-25T07:58:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="quoteGLPCitiBankTest()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLPCitiBankTest@3d99d22e]" name="quoteGLPCitiBankTest" duration-ms="791" started-at="2018-06-08T16:36:33Z" finished-at="2018-06-08T16:36:34Z">
+        <test-method status="PASS" signature="quoteGLPCitiBankTest()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLPCitiBankTest@3d99d22e]" name="quoteGLPCitiBankTest" duration-ms="1047" started-at="2018-06-25T07:58:51Z" finished-at="2018-06-25T07:58:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quoteGLPCitiBankTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLPCitiBankTest@3d99d22e]" name="setUp" is-config="true" duration-ms="3" started-at="2018-06-08T16:36:34Z" finished-at="2018-06-08T16:36:34Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLPCitiBankTest@3d99d22e]" name="setUp" is-config="true" duration-ms="2" started-at="2018-06-25T07:58:52Z" finished-at="2018-06-25T07:58:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="bookGLPCitiBankTest()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLPCitiBankTest@3d99d22e]" name="bookGLPCitiBankTest" duration-ms="240" started-at="2018-06-08T16:36:34Z" depends-on-methods="com.worldfirst.it.receivingBankTest.GLPCitiBankTest.quoteGLPCitiBankTest" finished-at="2018-06-08T16:36:34Z">
+        <test-method status="PASS" signature="bookGLPCitiBankTest()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLPCitiBankTest@3d99d22e]" name="bookGLPCitiBankTest" duration-ms="435" started-at="2018-06-25T07:58:52Z" depends-on-methods="com.worldfirst.it.receivingBankTest.GLPCitiBankTest.quoteGLPCitiBankTest" finished-at="2018-06-25T07:58:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookGLPCitiBankTest -->
       </class> <!-- com.worldfirst.it.receivingBankTest.GLPCitiBankTest -->
       <class name="com.worldfirst.it.receivingBankTest.USCCitiBankTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.receivingBankTest.USCCitiBankTest@49fc609f]" name="setUp" is-config="true" duration-ms="1" started-at="2018-06-08T16:36:34Z" finished-at="2018-06-08T16:36:34Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.receivingBankTest.USCCitiBankTest@49fc609f]" name="setUp" is-config="true" duration-ms="1" started-at="2018-06-25T07:58:53Z" finished-at="2018-06-25T07:58:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="quoteUSCCitiBankTest()[pri:0, instance:com.worldfirst.it.receivingBankTest.USCCitiBankTest@49fc609f]" name="quoteUSCCitiBankTest" duration-ms="716" started-at="2018-06-08T16:36:34Z" finished-at="2018-06-08T16:36:35Z">
+        <test-method status="PASS" signature="quoteUSCCitiBankTest()[pri:0, instance:com.worldfirst.it.receivingBankTest.USCCitiBankTest@49fc609f]" name="quoteUSCCitiBankTest" duration-ms="1022" started-at="2018-06-25T07:58:53Z" finished-at="2018-06-25T07:58:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quoteUSCCitiBankTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.receivingBankTest.USCCitiBankTest@49fc609f]" name="setUp" is-config="true" duration-ms="3" started-at="2018-06-08T16:36:35Z" finished-at="2018-06-08T16:36:35Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.receivingBankTest.USCCitiBankTest@49fc609f]" name="setUp" is-config="true" duration-ms="1" started-at="2018-06-25T07:58:54Z" finished-at="2018-06-25T07:58:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="bookUSCCitiBankTest()[pri:0, instance:com.worldfirst.it.receivingBankTest.USCCitiBankTest@49fc609f]" name="bookUSCCitiBankTest" duration-ms="205" started-at="2018-06-08T16:36:35Z" depends-on-methods="com.worldfirst.it.receivingBankTest.USCCitiBankTest.quoteUSCCitiBankTest" finished-at="2018-06-08T16:36:35Z">
+        <test-method status="PASS" signature="bookUSCCitiBankTest()[pri:0, instance:com.worldfirst.it.receivingBankTest.USCCitiBankTest@49fc609f]" name="bookUSCCitiBankTest" duration-ms="391" started-at="2018-06-25T07:58:54Z" depends-on-methods="com.worldfirst.it.receivingBankTest.USCCitiBankTest.quoteUSCCitiBankTest" finished-at="2018-06-25T07:58:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookUSCCitiBankTest -->
       </class> <!-- com.worldfirst.it.receivingBankTest.USCCitiBankTest -->
       <class name="com.worldfirst.it.receivingBankTest.GLZBarclaysTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLZBarclaysTest@32709393]" name="setUp" is-config="true" duration-ms="2" started-at="2018-06-08T16:36:32Z" finished-at="2018-06-08T16:36:32Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLZBarclaysTest@32709393]" name="setUp" is-config="true" duration-ms="2" started-at="2018-06-25T07:58:49Z" finished-at="2018-06-25T07:58:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="quoteGLZBarclaysTest()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLZBarclaysTest@32709393]" name="quoteGLZBarclaysTest" duration-ms="745" started-at="2018-06-08T16:36:32Z" finished-at="2018-06-08T16:36:33Z">
+        <test-method status="PASS" signature="quoteGLZBarclaysTest()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLZBarclaysTest@32709393]" name="quoteGLZBarclaysTest" duration-ms="945" started-at="2018-06-25T07:58:49Z" finished-at="2018-06-25T07:58:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quoteGLZBarclaysTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLZBarclaysTest@32709393]" name="setUp" is-config="true" duration-ms="6" started-at="2018-06-08T16:36:33Z" finished-at="2018-06-08T16:36:33Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLZBarclaysTest@32709393]" name="setUp" is-config="true" duration-ms="3" started-at="2018-06-25T07:58:50Z" finished-at="2018-06-25T07:58:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="bookGLZBarclaysTest()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLZBarclaysTest@32709393]" name="bookGLZBarclaysTest" duration-ms="460" started-at="2018-06-08T16:36:33Z" depends-on-methods="com.worldfirst.it.receivingBankTest.GLZBarclaysTest.quoteGLZBarclaysTest" finished-at="2018-06-08T16:36:33Z">
+        <test-method status="PASS" signature="bookGLZBarclaysTest()[pri:0, instance:com.worldfirst.it.receivingBankTest.GLZBarclaysTest@32709393]" name="bookGLZBarclaysTest" duration-ms="951" started-at="2018-06-25T07:58:50Z" depends-on-methods="com.worldfirst.it.receivingBankTest.GLZBarclaysTest.quoteGLZBarclaysTest" finished-at="2018-06-25T07:58:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookGLZBarclaysTest -->
